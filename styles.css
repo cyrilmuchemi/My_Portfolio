@@ -23,13 +23,14 @@ ul {
   font-weight: 700;
   width: auto;
   height: 24px;
-  margin-top: 30px;
+  margin-top: 40px;
+  position: absolute;
   align-self: center;
 }
 
 #humburger {
-  margin-left: 280px;
-  margin-top: 10px;
+  margin-left: 320px;
+  margin-top: 37px;
 }
 
 .topSection {
