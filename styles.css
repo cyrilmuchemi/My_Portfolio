@@ -39,7 +39,6 @@ ul {
 #humburger {
   margin-left: 320px;
   margin-top: 37px;
-  position: absolute;
 }
 
 .topSection {
@@ -79,7 +78,7 @@ ul {
 
 .firstPart p {
   color: #fff;
-  font-size: 16px;
+  font-size: 19px;
   line-height: 24px;
   width: 327px;
   height: 123px;
