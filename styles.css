@@ -4,6 +4,9 @@
 
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -27,6 +30,7 @@ ul {
   font-weight: 700;
   width: auto;
   height: 24px;
+  font-family: 'Roboto', sans-serif;
   margin-top: 40px;
   position: absolute;
   align-self: center;
@@ -35,6 +39,7 @@ ul {
 #humburger {
   margin-left: 320px;
   margin-top: 37px;
+  position: absolute;
 }
 
 .topSection {
@@ -47,11 +52,10 @@ ul {
 }
 
 .firstPart {
-  height: auto;
+  height: 730px;
   background: url(pics/background.svg);
   background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
+  background-position: right 267px;
   width: auto;
 }
 
@@ -79,7 +83,7 @@ ul {
   line-height: 24px;
   width: 327px;
   height: 123px;
-  font-family: 'Popins', sans-serif;
+  margin-bottom: 52px;
 }
 
 .firstSocialMedia {
@@ -91,7 +95,7 @@ ul {
 .firstSocialMedia ul {
   display: flex;
   margin-left: -48px;
-  margin-top: -24px;
+  margin-top: -48px;
 }
 
 .firstSocialMedia ul li {
