@@ -210,6 +210,7 @@ ul {
   background-image: url(pics/proff.png);
   margin-left: 24px;
   display: flex;
+  margin-top: 24px;
   max-width: 327px;
   max-height: 386px;
   flex-direction: column;
@@ -762,27 +763,27 @@ ul {
   margin-left: 50px;
 }
 
-.partTwo img {
-  margin-left: 50px;
+#picone {
+  margin-left: 30px;
   margin-top: -100px;
   position: absolute;
 }
 
-.partTwo h2 {
+#language {
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: bold;
   line-height: 12px;
-  margin-left: 90px;
+  margin-left: 65px;
   margin-top: -95px;
 }
 
-.partTwo ul {
-  margin-left: 40px;
+#firstlist {
+  margin-left: 24px;
 }
 
-.partTwo ul li {
+#firstlist li {
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 22px;
@@ -793,34 +794,29 @@ ul {
   vertical-align: middle;
 }
 
-.partThree {
-  background: #1c1a19;
-  margin-top: 0;
-}
-
-.partThree img {
+#pictwo {
   height: 18px;
-  margin-left: 100px;
+  margin-left: 10px;
   margin-top: 36px;
   width: 18px;
 }
 
-.partThree h2 {
+#frameworks {
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: bold;
   line-height: 12px;
   margin-bottom: 36px;
-  margin-left: 130px;
+  margin-left: 40px;
   margin-top: -20px;
 }
 
-.partThree ul {
+#secondlist ul {
   margin-left: 70px;
 }
 
-.partThree ul li {
+#secondlist li {
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 22px;
@@ -830,33 +826,28 @@ ul {
   padding: 24px;
 }
 
-.partFour {
-  background: #1c1a19;
-  margin-top: 0;
-}
-
-.partFour img {
-  margin-left: 110px;
+#picthree {
+  margin-left: 30px;
   margin-top: 36px;
   width: 18px;
 }
 
-.partFour ul {
+#lastlist ul {
   margin-left: 80px;
 }
 
-.partFour h2 {
+#skills {
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: bold;
   line-height: 12px;
   margin-bottom: 36px;
-  margin-left: 140px;
+  margin-left: 60px;
   margin-top: -20px;
 }
 
-.partFour li {
+#lastlist li {
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 22px;
@@ -864,4 +855,14 @@ ul {
   font-weight: normal;
   line-height: 12px;
   padding: 24px;
+}
+
+button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+button:disabled {
+  background-color: #f4f1f0;
+  color: black;
 }
