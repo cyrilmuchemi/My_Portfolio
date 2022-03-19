@@ -13,6 +13,7 @@ body {
 
 header {
   background: #3c3a39;
+  margin-top: -20px;
 }
 
 .top-navigation {
@@ -56,7 +57,7 @@ ul {
   height: 730px;
   background: url(pics/background.svg);
   background-repeat: no-repeat;
-  background-position: right 267px;
+  background-position: right 280px;
   width: auto;
 }
 
@@ -128,6 +129,9 @@ ul {
   width: 327px;
   height: 0;
   border: 1px solid #212121;
+  margin-left: 24px;
+  position: absolute;
+  margin-top: 210px;
 }
 
 .holder h3 {
@@ -166,6 +170,7 @@ ul {
 .projectTag ul {
   display: inherit;
   margin-left: -24px;
+  margin-top: -12px;
 }
 
 .projectTag li {
@@ -180,8 +185,7 @@ ul {
 .firstButton {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 12px;
-  justify-content: flex-start;
+  margin-top: -12px;
 }
 
 .firstButton button {
@@ -249,6 +253,7 @@ ul {
   display: inherit;
   margin-left: -12px;
   gap: 12px;
+  margin-top: -12px;
 }
 
 .secondTag li {
@@ -276,6 +281,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
+  margin-top: -12px;
   line-height: 24px;
   align-items: center;
   width: 327px;
@@ -320,9 +326,7 @@ ul {
 .thirdTag {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   margin-top: 12px;
-  justify-content: center;
   max-width: 236px;
   max-height: 40px;
 }
@@ -330,6 +334,8 @@ ul {
 .thirdTag ul {
   display: inherit;
   gap: 12px;
+  margin-left: -24px;
+  margin-top: -12px;
 }
 
 .thirdTag li {
@@ -354,6 +360,7 @@ ul {
   color: #fff;
   width: 327px;
   height: 48px;
+  margin-top: -12px;
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
@@ -399,8 +406,6 @@ ul {
 
 .fourthTag {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   flex-direction: row;
   max-width: 236px;
   max-height: 40px;
@@ -410,7 +415,8 @@ ul {
 .fourthTag ul {
   display: inherit;
   gap: 12px;
-  margin-left: 12px;
+  margin-left: -24px;
+  margin-top: -12px;
 }
 
 .fourthTag li {
@@ -436,6 +442,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
+  margin-top: -12px;
   line-height: 24px;
   align-items: center;
   width: 327px;
@@ -480,17 +487,14 @@ ul {
 .fifthTag {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 12px;
   max-width: 236px;
   max-height: 40px;
 }
 
 .fifthTag ul {
   display: inherit;
-  margin-left: 12px;
   gap: 10px;
+  margin-left: -24px;
 }
 
 .fifthTag li {
@@ -572,7 +576,8 @@ ul {
 .sixthTag ul {
   display: inherit;
   gap: 10px;
-  margin-left: 12px;
+  margin-left: -12px;
+  margin-top: -12px;
 }
 
 .sixthTag li {
@@ -597,6 +602,7 @@ ul {
   color: #fff;
   font-size: 17px;
   line-height: 24px;
+  margin-top: -12px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -653,7 +659,8 @@ ul {
 .seventhTag ul {
   display: inherit;
   gap: 10px;
-  margin-left: 12px;
+  margin-left: -12px;
+  margin-top: -12px;
 }
 
 .seventhTag li {
@@ -680,6 +687,7 @@ ul {
   width: 327px;
   height: 48px;
   border: none;
+  margin-top: -12px;
   line-height: 24px;
   align-items: center;
   font-style: normal;
@@ -745,22 +753,19 @@ ul {
   height: 0;
   width: 327px;
   margin-top: -260px;
+  position: inherit;
 }
 
 .partTwo {
   background: #1c1a19;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   margin-top: 0;
   margin-left: 50px;
 }
 
 .partTwo img {
-  height: 18px;
   margin-left: 50px;
-  margin-top: -130px;
-  width: 18px;
+  margin-top: -100px;
+  position: absolute;
 }
 
 .partTwo h2 {
@@ -769,13 +774,12 @@ ul {
   font-size: 32px;
   font-weight: bold;
   line-height: 12px;
-  margin-left: 12px;
-  margin-top: -130px;
+  margin-left: 90px;
+  margin-top: -95px;
 }
 
 .partTwo ul {
-  margin-top: -80px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .partTwo ul li {
