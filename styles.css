@@ -328,6 +328,8 @@ ul {
   margin-top: 2px;
 }
 
+#desktopHeading { display: none; }
+
 #thirdTag {
   display: flex;
   flex-direction: row;
@@ -374,6 +376,8 @@ ul {
   font-family: 'Crete Round', sans-serif;
   line-height: 44px;
 }
+
+#desktopHeading2 { display: none; }
 
 #thirdCard p {
   color: #fff;
@@ -422,6 +426,8 @@ ul {
   max-height: 386px;
   background-image: url(pics/proff.png);
 }
+
+#desktopHeading3 { display: none; }
 
 #fourthCard h2 {
   margin-left: 16px;
@@ -481,6 +487,8 @@ ul {
   max-height: 386px;
   margin-top: 60px;
 }
+
+#desktopHeading4 { display: none; }
 
 #fifthCard h2 {
   color: #fff;
@@ -554,6 +562,8 @@ ul {
   color: #fff;
   font-family: 'Crete Round', sans-serif;
 }
+
+#desktopHeading5 { display: none; }
 
 #sixthCard p {
   font-family: 'Inter', sans-serif;

@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 /* stylelint-disable CssSyntaxError */
 /* stylelint-disable no-missing-end-of-source-newline */
 /* stylelint-disable no-eol-whitespace */
@@ -16,6 +17,27 @@
     margin: 0;
   }
 
+  .Button1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 22px;
+  }
+  
+  .Button1 button {
+    background: #ff6b00;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 320px;
+    line-height: 24px;
+    align-items: center;
+    width: 327px;
+    height: 48px;
+    border: none;
+  }
+
   header {
     width: 100%;
     background: #3c3a39;
@@ -24,7 +46,6 @@
 
   .top-navigation {
     display: flex;
-
   }
   
   #navigation-name {
@@ -120,4 +141,435 @@
   .firstSocialMedia ul li {
     padding: 12px;
   }
+
+  .projectIntro {
+    display: grid;
+    width: 100%;
+  }
+
+  .projectSection {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .projectSection h2 {
+  color: #1c1a19;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 153.5px;
+  margin-top: 135px;
+}
+
+  .topLine {
+  width: 694px;
+  height: 0;
+  border: 1px solid #212121;
+  margin-left: 492.5px;
+  position: absolute;
+  margin-top: 161px;
+}
+
+  .holder img {
+    width: 684px;
+    height: 448px;
+    margin-left: 141px;
+    margin-top: 50px;
+  }
+
+  .holder h3 {
+    margin-left: 849px;
+    margin-top: -460px;
+    color: #091e42;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .holder p {
+  color: #091e42;
+  font-family: 'Inter', sans-serif;
+  line-height: 24px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 849px;
+  }
+
+  .projectTag {
+  display: flex;
+  }
+
+  .projectTag ul {
+    display: inherit;
+    margin-left: 808px;
+  }
+
+  .projectTag li {
+    color: #091e42;
+    width: auto;
+    height: max-content;
+    border: 1px solid #8993a4;
+    padding: 12px;
+    margin: 5px;
+  }
+
+  .firstButton {
+    display: flex;
+    margin-top: 24px;
+  }
+  
+  .firstButton button {
+    font-size: 17px;
+    padding-right: 12px;
+    padding-top: 12px;
+    text-align: center;
+    font-style: normal;
+    background: #ff6b00;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    font-weight: bold;
+    height: 48px;
+    margin-left: 852px;
+    width: 124px;
+    border: none;
+  }
+
+  #cardOne {
+    background-image: url(pics/desktop.png);
+    margin-left: 141.5px;
+    display: flex;
+    margin-top: 141px;
+    width: 327px;
+    height: 386px;
+    flex-direction: column;
+  }
+
+  #cardOne h2 { display: none; }
+  #cardOne p { display: none; }
+  #secondTag { display: none; }
+
+  #secondCard {
+    display: flex;
+    flex-direction: column;
+    background-image: url(pics/Availability.png);
+    margin-left: 493px;
+    width: 327px;
+    height: 386px;
+    margin-top: -382px;
+  }
+  
+  #desktopHeading {
+    color: #fff;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    margin-left: 16px;
+    margin-top: 100px;
+  }
+
+  #secondCard h2 { display: none; }
+  
+  #secondCard p {
+    width: 295px;
+    height: 87px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 16px;
+  }
+
+  #thirdTag {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    max-width: 236px;
+    max-height: 40px;
+  }
+  
+  #thirdTag ul {
+    display: inherit;
+    gap: 12px;
+    margin-left: -24px;
+    margin-top: -12px;
+  }
+  
+  #thirdTag li {
+    align-self: center;
+    color: #fff;
+    padding-right: 12px;
+    padding-left: 12px;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  #secondCard .Button1 { display: none; }
+
+  #thirdCard {
+    display: flex;
+    flex-direction: column;
+    margin-left: 838px;
+    margin-top: -386px;
+    width: 327px;
+    height: 386px;
+    background-image: url(pics/kaball.png);
+  }
+
+  #desktopHeading2 {
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 16px;
+  margin-top: 180px;
+  font-size: 32px;
+  color: #fff;
+  font-family: 'Crete Round', sans-serif;
+  line-height: 44px;
+  }
+  
+  #thirdCard h2 { display: none; }
+
+  #thirdCard p {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    width: 295px;
+    height: 87px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: -24px;
+  }
+
+  #fourthTag {
+    display: flex;
+    flex-direction: row;
+    max-width: 236px;
+    max-height: 40px;
+    margin-top: 12px;
+  }
+  
+  #fourthTag ul {
+    display: inherit;
+    gap: 12px;
+    margin-left: -24px;
+    margin-top: -12px;
+  }
+  
+  #fourthTag li {
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.24);
+    color: #fff;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #thirdCard .Button1 { display: none; }
+
+#fourthCard {
+  display: flex;
+  flex-direction: column;
+  margin-left: 141.5px;
+  margin-top: 24px;
+  width: 327px;
+  height: 386px;
+  background-image: url(pics/proff.png);
+}
+
+#desktopHeading3 {
+  margin-left: 16px;
+  margin-top: 135px;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  font-size: 32px;
+  line-height: 44px;
+  font-family: 'Crete Round', sans-serif;
+}
+
+#fourthCard p {
+  margin-left: 16px;
+  margin-top: -24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+  width: 295px;
+  height: 87px;
+  color: #fff;
+}
+
+#fifthTag {
+  display: flex;
+  flex-direction: row;
+  max-width: 236px;
+  max-height: 40px;
+}
+
+#fifthTag ul {
+  display: inherit;
+  gap: 10px;
+  margin-left: -24px;
+}
+
+#fifthTag li {
+  color: #fff;
+  align-self: center;
+  background: rgba(255, 255, 255, 0.24);
+  width: auto;
+  padding: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#fourthCard .Button1 { display: none; }
+
+#fourthCard h2 { display: none; }
+  
+#fifthCard {
+  display: flex;
+  flex-direction: column;
+  background-image: url(pics/Availability.png);
+  margin-left: 493px;
+  width: 327px;
+  height: 386px;
+  margin-top: -386px;
+}
+
+#fifthCard h2 { display: none; }
+
+#desktopHeading4 {
+  color: #fff;
+  font-size: 32px;
+  line-height: 44px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 16px;
+  margin-top: 137px;
+}
+
+#fifthCard p {
+  width: 295px;
+  height: 87px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 16px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: -24px;
+}
+
+#fifthCard .Button1 { display: none; }
+
+#sixthTag {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  max-width: 236px;
+  max-height: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#sixthTag ul {
+  display: inherit;
+  gap: 10px;
+  margin-left: -12px;
+  margin-top: -12px;
+}
+
+#sixthTag li {
+  align-self: center;
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: auto;
+}
+
+#sixthCard {
+  display: flex;
+  flex-direction: column;
+  margin-left: 838px;
+  width: 327px;
+  height: 386px;
+  margin-top: -386px;
+  background-image: url(pics/kaball.png);
+}
+
+#sixthCard h2 { display: none; }
+
+#desktopHeading5 {
+  line-height: 44px;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  margin-top: 177px;
+  color: #fff;
+  font-family: 'Crete Round', sans-serif;
+}
+
+#sixthCard p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  line-height: 24px;
+  margin-left: 16px;
+  margin-top: -24px;
+  font-weight: normal;
+  width: 295px;
+  height: 87px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#seventhTag {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  justify-content: center;
+  max-width: 236px;
+  max-height: 40px;
+  flex-wrap: wrap;
+}
+
+#seventhTag ul {
+  display: inherit;
+  gap: 10px;
+  margin-left: -12px;
+  margin-top: -12px;
+}
+
+#seventhTag li {
+  align-self: center;
+  color: #fff;
+  width: auto;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+  
 }
