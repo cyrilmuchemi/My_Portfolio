@@ -766,18 +766,6 @@ ul {
   padding: 24px;
 }
 
-button:hover {
-  background-color: #fff5e1;
-  color: #f55800;
-}
-
-button:disabled {
-  background-color: #f4f1f0;
-  color: black;
-  flex-direction: column;
-  align-self: center;
-}
-
 .form-section {
   display: flex;
   flex-direction: column;
@@ -884,6 +872,26 @@ input {
 #bottomRectangle {
   width: 138px;
   margin-left: 130px;
+}
+
+.Button1 button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.firstButton button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.partOne button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.form-section button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
 }
 
 #About, #Contact, #Portfolio, #Email-icon { display: none; }

@@ -58,8 +58,8 @@
 
   #Portfolio {
     color: #fff;
-    margin-left: 580px;
-    margin-top: 26px;
+    margin-left: 680px;
+    margin-top: 27px;
     position: absolute;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
@@ -69,8 +69,8 @@
     color: #fff;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
-    margin-top: 26px;
-    margin-left: 680px;
+    margin-top: 27px;
+    margin-left: 780px;
     position: absolute;
   }
 
@@ -78,15 +78,15 @@
     color: #fff;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
-    margin-left: 750px;
+    margin-left: 850px;
     position: absolute;
     margin-top: 26px;
   }
 
   #Email-icon {
-    margin-left: 850px;
+    margin-left: 930px;
     position: absolute;
-    margin-top: 26px;
+    margin-top: 24px;
   }
 
   #humburger {
@@ -639,7 +639,6 @@
   display: flex;
   background: #1c1a19;
   flex-direction: column;
-  margin-top: 140px;
   margin-left: 140px;
 }
 
@@ -835,5 +834,25 @@ input {
 
 #github {
   margin-top: 2px;
+}
+
+.Button1 button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.firstButton button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.partOne button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.form-section button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
 }
 }
