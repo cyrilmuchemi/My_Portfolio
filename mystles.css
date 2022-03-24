@@ -113,7 +113,7 @@
     font-size: 72px;
     margin-left: 143px;
     margin-top: 192px;
-    color: #f55800;
+    color: #ff6b00;
     font-weight: 400;
   }
 
@@ -571,5 +571,167 @@
   background: rgba(255, 255, 255, 0.24);
 }
 
-  
+#sixthCard .Button1 { display: none; }
+
+.meSection {
+  background: #1c1a19;
+  display: grid;
+  margin-top: 120px;
+  width: 1440px;
+  height: 1195px;
+}
+
+.partOne {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  background: url(pics/aboutt.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.partOne h2 {
+  color: #ff6b00;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.37px;
+  margin-top: 130px;
+  margin-left: 142px;
+}
+
+.partOne p {
+  color: #f4f5f7;
+  font-weight: normal;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin-top: -48px;
+  font-style: normal;
+  margin-left: 142px;
+  line-height: 24px;
+}
+
+.partOne button {
+  background: #ff6b00;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  height: 48px;
+  padding-bottom: 12px;
+  margin-left: 142px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  text-align: center;
+  width: 161px;
+  border: none;
+}
+
+.divider {
+  border: 1px solid #fff;
+  height: 0;
+  width: 1156px;
+  margin-top: 100px;
+}
+
+.partTwo {
+  display: flex;
+  background: #1c1a19;
+  flex-direction: column;
+  margin-top: 140px;
+  margin-left: 140px;
+}
+
+#picone {
+  margin-left: 30px;
+  margin-top: 18px;
+  position: absolute;
+}
+
+#language {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 12px;
+  margin-left: 65px;
+}
+
+#firstlist {
+  margin-left: -24px;
+}
+
+#firstlist li {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  padding: 24px;
+  font-weight: normal;
+  line-height: 12px;
+  vertical-align: middle;
+}
+
+#pictwo {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 24px;
+  height: 18px;
+  width: 18px;
+}
+
+#frameworks {
+  position: absolute;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 12px;
+  margin-left: 427px;
+}
+
+#secondlist li {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+  padding: 20px;
+  margin-left: 380px;
+  margin-bottom: -128px;
+}
+
+#picthree {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 24px;
+  width: 18px;
+}
+
+#skills {
+  position: absolute;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 12px;
+  margin-left: 824px;
+}
+
+#lastlist li {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 12px;
+  padding: 24px;
+  margin-left: 770px;
+}
+
+#lastlist {
+  margin-top: -247px;
+}
+
 }
