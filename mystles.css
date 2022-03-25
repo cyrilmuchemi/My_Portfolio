@@ -3,7 +3,7 @@
 /* stylelint-disable no-missing-end-of-source-newline */
 /* stylelint-disable no-eol-whitespace */
 /* stylelint-disable indentation */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   body {
     font-family: 'Roboto', sans-serif;
     height: 1000px;
@@ -53,12 +53,13 @@
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     margin-top: 28px;
+    margin-left: 110px;
     position: absolute;
   }
 
   #Portfolio {
     color: #fff;
-    margin-left: 680px;
+    margin-left: 840px;
     margin-top: 27px;
     position: absolute;
     font-family: 'Inter', sans-serif;
@@ -70,7 +71,7 @@
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     margin-top: 27px;
-    margin-left: 780px;
+    margin-left: 930px;
     position: absolute;
   }
 
@@ -78,13 +79,13 @@
     color: #fff;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
-    margin-left: 850px;
+    margin-left: 1000px;
     position: absolute;
     margin-top: 26px;
   }
 
   #Email-icon {
-    margin-left: 930px;
+    margin-left: 1100px;
     position: absolute;
     margin-top: 24px;
   }
@@ -193,6 +194,7 @@
   font-family: 'Inter', sans-serif;
   line-height: 24px;
   font-size: 16px;
+  width: 448px;
   font-style: normal;
   font-weight: normal;
   margin-left: 849px;
@@ -243,7 +245,7 @@
     background-image: url(pics/desktop.png);
     margin-left: 141.5px;
     display: flex;
-    margin-top: 141px;
+    margin-top: 180px;
     width: 327px;
     height: 386px;
     flex-direction: column;
@@ -270,21 +272,22 @@
     font-weight: normal;
     font-size: 32px;
     margin-left: 16px;
-    margin-top: 100px;
+    margin-top: 130px;
   }
 
   #secondCard h2 { display: none; }
   
   #secondCard p {
-    width: 295px;
-    height: 87px;
+    width: 330px;
+    height: 72px;
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
+    margin-top: -10px;
     line-height: 24px;
-    margin-left: 16px;
+    margin-left: 10px;
   }
 
   #thirdTag {
@@ -341,11 +344,11 @@
   #thirdCard p {
     color: #fff;
     font-family: 'Inter', sans-serif;
-    width: 295px;
-    height: 87px;
+    width: 337px;
+    height: 72px;
     font-size: 16px;
     line-height: 24px;
-    margin-left: 16px;
+    margin-left: 10px;
     font-style: normal;
     font-weight: normal;
     margin-top: -24px;
@@ -400,15 +403,15 @@
 }
 
 #fourthCard p {
-  margin-left: 16px;
+  margin-left: 10px;
   margin-top: -24px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   font-family: 'Inter', sans-serif;
-  width: 295px;
-  height: 87px;
+  width: 337px;
+  height: 72px;
   color: #fff;
 }
 
@@ -465,11 +468,11 @@
 }
 
 #fifthCard p {
-  width: 295px;
-  height: 87px;
+  width: 337px;
+  height: 72px;
   font-size: 16px;
   line-height: 24px;
-  margin-left: 16px;
+  margin-left: 10px;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -534,11 +537,11 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   line-height: 24px;
-  margin-left: 16px;
+  margin-left: 10px;
   margin-top: -24px;
   font-weight: normal;
-  width: 295px;
-  height: 87px;
+  width: 337px;
+  height: 72px;
   color: #fff;
   font-size: 16px;
 }
@@ -605,8 +608,9 @@
   color: #f4f5f7;
   font-weight: normal;
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   margin-top: -48px;
+  width: 566px;
   font-style: normal;
   margin-left: 142px;
   line-height: 24px;
@@ -624,6 +628,7 @@
   padding-right: 12px;
   padding-top: 12px;
   text-align: center;
+  margin-top: 26px;
   width: 161px;
   border: none;
 }
@@ -733,59 +738,60 @@
   margin-top: -247px;
 }
 
-.form-section {
+.form-container {
   display: flex;
-  width: 100%;
-  height: 100%;
   background: #fff;
 }
 
-.form-section h3 {
-  position: absolute;
-  width: 455px;
-  height: 256px;
+.form-container p {
+  max-width: 455px;
+  max-height: 256px;
   margin-top: 130px;
   margin-left: 135px;
-  color: #172b4d;
+  color: #262626;
   font-family: 'Inter', sans-serif;
-  font-size: 32px;
+  font-size: 40px;
+  line-height: 52px;
   font-weight: bold;
   font-style: normal;
 }
 
-fieldset {
-  border: 0;
+form {
+  overflow: hidden;
+  margin-left: 24px;
   margin-top: 130px;
-  margin-left: 600px;
 }
 
 input {
   margin-top: 24px;
-  width: 327px;
-  height: 47px;
+  width: 400px;
+  height: 80px;
   outline: none;
-  border: 0;
+  border: none;
 }
 
-.contact label {
+.contact-form {
+  border: 0;
+  width: 500px;
+}
+
+.contact-form label {
   color: #979493;
-  align-items: center;
   line-height: 24px;
 }
 
-.contact input {
-  padding-left: 10px;
+.contact-form input {
+  padding-left: 5px;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   color: #979493;
-  border-radius: 0;
   border-bottom: 1px solid #dbd8d7;
 }
 
-.contact textarea {
+.contact-form textarea {
   margin-top: 24px;
   padding: 12px;
-  width: 664px;
+  width: 500px;
   height: 114px;
   color: #3c3a39;
   border: 0;
@@ -795,45 +801,49 @@ input {
   background-color: #fbf8f7;
 }
 
-.form-section button {
-  position: absolute;
-  margin-top: 168px;
-  margin-left: -690px;
-  width: 131px;
+#firstname {
+  width: 260px;
+}
+
+#lastname {
+  width: 260px;
+  margin-left: 40px;
+}
+
+#form-button {
+  display: flex;
+  position: relative;
+  width: 122px;
   height: 48px;
   color: #fff;
   background: #ff6b00;
-  padding: 12px 12px 12px 12px;
+  align-items: center;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: bold;
   border: none;
 }
 
-.lastSocial {
+.socialmedia-2 {
   display: flex;
   flex-direction: column;
-  margin-top: -400px;
-  margin-bottom: -200px;
 }
 
-#bottomDivider {
+#bottom-line {
   width: 1440px;
+  margin: 0;
   height: 1px;
+  margin-top: 152px;
 }
 
-#socialMedia {
-  display: inherit;
-  margin-left: 550px;
+#icons {
+  margin-left: 580px;
+  margin-top: 15px;
 }
 
-#socialMedia li {
+#icons li {
   padding: 9px;
-}
-#bottomRectangle img { display: none; }
-
-#github {
-  margin-top: 2px;
+  display: inline;
 }
 
 .Button1 button:hover {
@@ -851,8 +861,9 @@ input {
   color: #f55800;
 }
 
-.form-section button:hover {
+#form-button:hover {
   background-color: #fff5e1;
   color: #f55800;
 }
+#bottomRectangle img { display: none; }
 }
