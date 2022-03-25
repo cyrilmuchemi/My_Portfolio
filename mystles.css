@@ -743,7 +743,12 @@
   background: #fff;
 }
 
-.form-container p {
+.Button1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.form-container h3 {
   max-width: 455px;
   max-height: 256px;
   margin-top: 130px;
