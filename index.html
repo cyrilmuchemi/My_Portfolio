@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="mystles.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,6 +15,10 @@
             <ul class="navigationItems">
                 <li><a id="navigation-name" href="#">Cyril Muchemi</a></li>
                 <li><a href="#"><img id="humburger" src="pics/Hamburger.png" alt="Humburger icon"></a></li>
+                <li><a id="Portfolio" href="#">Portfolio</a></li>
+                <li><a id="About" href="#">About</a></li>
+                <li><a id="Contact" href="#">Contact</a></li>
+                <li><a href="#"><img id="Email-icon" src="pics/Mail.png" alt="Email svg"></a></li>
             </ul>
 
         </nav>
@@ -50,14 +55,12 @@
         <hr class="topLine">
         <div class="holder">
             <img src="pics/holder.png" alt="A place holder png">
-            <div class="multipostStories">
             <h3>Multi-Post Stories</h3>
-            <p>A daily selection of privately personalized<br> reads; 
-                no accounts or sign-ups required,<br> 
-                has been the industry's standard dummy<br> text ever since the 1500s, 
-                when an<br> unknown printer took a standard dummy<br> text.</p>
+            <p>A daily selection of privately personalized reads; 
+                no accounts or sign-ups required, 
+                has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a standard dummy text.</p>
               </div>
-        </div>
 
         <div class="projectTag">
           <ul>
@@ -84,11 +87,12 @@
                   <li>Ruby</li>
               </ul>
               </div>
-              <div class="Button1"><button  type="button" onclick="index.html">See Project</button></div>
+              <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
           </div>
 
     <div id="secondCard">
         <h2>Profesional Art Printing Data</h2>
+        <h3 id="desktopHeading">Data Dashboard Healthcare</h3>
         <p>A daily selection of privately personalized reads; 
           no accounts or sign-ups required. has been the industry's standard</p>
           <div id="thirdTag">
@@ -103,6 +107,7 @@
 
     <div id="thirdCard">
         <h2>Profesional Art Printing Data</h2>
+        <h3 id="desktopHeading2">Website Protfolio</h3>
         <p>A daily selection of privately personalized reads; 
           no accounts or sign-ups required. has been the industry's standard</p>
           <div id="fourthTag">
@@ -117,6 +122,7 @@
 
     <div id="fourthCard">
         <h2>Profesional Art Printing Data</h2>
+        <h3 id="desktopHeading3">Profesional Art Printing Data More</h3>
         <p>A daily selection of privately personalized reads; 
           no accounts or sign-ups required. has been the industry's standard</p>
           <div id="fifthTag">
@@ -131,6 +137,7 @@
 
     <div id="fifthCard">
         <h2>Profesional Art Printing Data</h2>
+        <h3 id="desktopHeading4">Data Dashboard Healthcare</h3>
         <p>A daily selection of privately personalized reads; 
           no accounts or sign-ups required. has been the industry's standard</p>
           <div id="sixthTag">
@@ -146,6 +153,7 @@
 
     <div id="sixthCard">
         <h2>Profesional Art Printing Data</h2>
+        <h3 id="desktopHeading5">Website Protfolio</h3>
         <p>A daily selection of privately personalized reads; 
           no accounts or sign-ups required. has been the industry's standard</p>
           <div id="seventhTag">
@@ -163,9 +171,9 @@
         <div class="partOne">
             <h2>About me</h2>
             <p>
-                Hello I'm a software developer! I can help,<br> you build a product, 
-                feature or website<br> Look through some of my work and<br> experience! 
-                If you like what you see and<br> have a project you need coded, don't<br> hestiate to contact me.
+                Hello I'm a software developer! I can help, you build a product, 
+                feature or website Look through some of my work and experience! 
+                If you like what you see and have a project you need coded, don't hestiate to contact me.
             </p>
             <button type="button" onclick="index.html">Get My Resume</button>
         </div>
@@ -201,40 +209,42 @@
              </ul>
         </div>
     </section>
-
-        <section class="form-section">
-            <h3>
-                I'm always interested in hearing about new projects, 
-                so if you'd like to chat please get in touch.
-            </h3>
-            <form action="https://formspree.io/f/mqknlogy" method="POST">
-                <fieldset class="contact">
-                    <label for="username">
-                    <input type="text" name="username" id="username" placeholder="Full Name" maxlength="30" required>
-                     </label>
-                     <label for="email">
-                         <input type="email" name="email-address" id="email" placeholder="Email Address" required>
-                     </label>
-                     <label>
-                         <textarea name="comments" maxlength="500" placeholder="Enter text here" required></textarea>
-                     </label>
-                    <button id="contact-button" name="submit" type="submit">Get in touch</button>
-                </fieldset>
-            </form>
-        </section>
-        <section class="lastSocial">
-            <hr id="bottomDivider">
-                 <ul id="socialMedia">
-                    <li><a href="#"><img id="github" src="pics/darkGit.png" alt="A GitHub icon" ></a></li>
-                    <li><a href="#"><img src="pics/darkLinked.png" alt="A Linkedin icon"></a></li>
-                     <li><a href="#"><img src="pics/darkAngel.png" alt=" An Angelist icon"></a></li>
-                     <li><a href="#"><img src="pics/darkTwitter.png" alt="A Twitter icon"></a></li>
-                     <li><a href="#"><img src="pics/darkMedium.png" alt="A Medium icon"></a></li>
-                    </ul>
-        
-            <div id="bottomRectangle">
-                <img src="pics/Shape.svg" alt="A rectangular svg"> 
-                </div>   
-        </section>
+    <section class="form-container">
+        <h3>
+            I'm always interested in hearing about new projects, 
+            so if you'd like to chat please get in touch.
+        </h3>
+        <form action="https://formspree.io/f/mqknlogy" method="POST">
+            <fieldset class="contact-form">
+                <label for="username">
+                <input type="text" name="username" id="username" placeholder="Full Name" maxlength="30" required>
+                 </label>
+                 <label for="email">
+                     <input type="email" name="email-address" id="email" placeholder="Email Address" required>
+                 </label>
+                 <label>
+                     <textarea name="comments" maxlength="500" required> Enter text here</textarea>
+                 </label>
+                <button id="form-button" name="submit" type="submit">
+                     Get in touch
+                 </button>
+            </fieldset>
+        </form>
+    </section>
+    <section class="socialmedia-2">
+        <hr id="bottom-line">
+        <div id="icons">
+             <ul>
+                <li><a href="#"><img src="pics/darkGit.png" alt="A GitHub icon" ></a></li>
+                <li><a href="#"><img src="pics/darkLinked.png" alt="A Linkedin icon"></a></li>
+                 <li><a href="#"><img src="pics/darkAngel.png" alt=" An Angelist icon"></a></li>
+                 <li><a href="#"><img src="pics/darkTwitter.png" alt="A Twitter icon"></a></li>
+                 <li><a href="#"><img id="Medium" src="pics/darkMedium.png" alt="A Medium icon"></a></li>
+                </ul>
+        </div>
+        <div id="bottomRectangle">
+            <img src="pics/Shape.svg" alt="A rectangular svg"> 
+            </div>  
+    </section>
     </body>
     </html>
