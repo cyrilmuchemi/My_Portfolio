@@ -882,11 +882,13 @@ input {
 .firstButton button:hover {
   background-color: #fff5e1;
   color: #f55800;
+  transition: all 0.5sec ease-in-out;
 }
 
 .partOne button:hover {
   background-color: #fff5e1;
   color: #f55800;
+  transition: all 0.5sec ease-in-out;
 }
 
 .form-section button:hover {
@@ -895,4 +897,9 @@ input {
 }
 
 #About, #Contact, #Portfolio, #Email-icon { display: none; }
+}
+
+.translate {
+  transform: translate(10px, 10px);
+  background-color: blue;
 }
