@@ -10,9 +10,9 @@
 - HTML
 - CSS
 
-## Deployment
+## Live Demo
 
-- https://cyrilmuchemi.github.io/My_Portfolio/
+- The live demo [link](https://cyrilmuchemi.github.io/My_Portfolio/).
 
 
 
