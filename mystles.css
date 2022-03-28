@@ -36,6 +36,7 @@
     width: 327px;
     height: 48px;
     border: none;
+    transition: width 2s, height 2s, background-color 2s;
   }
 
   header {
@@ -822,6 +823,7 @@ input {
   font-size: 17px;
   font-weight: bold;
   border: none;
+  transition: width 2s, height 2s, background-color 2s;
 }
 
 .socialmedia-2 {
@@ -848,6 +850,8 @@ input {
 
 .Button1 button:hover {
   background-color: #fff5e1;
+  width: 400px;
+  height: 100px;
   color: #f55800;
 }
 
@@ -864,6 +868,8 @@ input {
 #form-button:hover {
   background-color: #fff5e1;
   color: #f55800;
+  width: 100px;
+  height: 100px;
 }
 #bottomRectangle img { display: none; }
 }

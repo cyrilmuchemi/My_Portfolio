@@ -10,6 +10,10 @@
 - HTML
 - CSS
 
+## Deployment
+
+- https://cyrilmuchemi.github.io/My_Portfolio/
+
 
 
 
