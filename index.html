@@ -216,15 +216,12 @@
         </h3>
         <form action="https://formspree.io/f/mqknlogy" method="POST">
             <fieldset class="contact-form">
-                <label for="username">
+                <label for="username" class="reader">Full Name:</label>
                 <input type="text" name="username" id="username" placeholder="Full Name" maxlength="30" required>
-                 </label>
-                 <label for="email">
-                     <input type="email" name="email-address" id="email" placeholder="Email Address" required>
-                 </label>
-                 <label>
-                     <textarea name="comments" maxlength="500" required> Enter text here</textarea>
-                 </label>
+                <label for="email" class="reader">Email: </label>
+                <input type="email" name="email-address" id="email" placeholder="Email Address" required>
+                <label for="text-area" class="reader">Message: </label>
+                <textarea id="text-area" name="comments" maxlength="500" required> Enter text here</textarea>
                 <button id="form-button" name="submit" type="submit">
                      Get in touch
                  </button>

@@ -801,6 +801,10 @@ input {
   border: 0;
 }
 
+.reader {
+  display: none;
+}
+
 .contact-form label {
   color: #979493;
   align-items: center;

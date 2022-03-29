@@ -768,6 +768,10 @@ form {
   margin-top: 130px;
 }
 
+.reader {
+  display: none;
+}
+
 input {
   margin-top: 24px;
   width: 400px;
@@ -877,4 +881,11 @@ input {
   height: 100px;
 }
 #bottomRectangle img { display: none; }
+}
+
+/* Specific things to be shown only on screen reader */
+@media reader {
+  .reader {
+    display: block;
+  }
 }
