@@ -261,6 +261,7 @@
     flex-direction: column;
     background-image: url(pics/Availability.png);
     margin-left: 493px;
+    background-color: none;
     width: 327px;
     height: 386px;
     margin-top: -382px;
@@ -324,6 +325,7 @@
     flex-direction: column;
     margin-left: 838px;
     margin-top: -386px;
+    background-color: none;
     width: 327px;
     height: 386px;
     background-image: url(pics/kaball.png);
@@ -385,6 +387,7 @@
 #fourthCard {
   display: flex;
   flex-direction: column;
+  background-color: none;
   margin-left: 141.5px;
   margin-top: 24px;
   width: 327px;
@@ -450,6 +453,7 @@
   flex-direction: column;
   background-image: url(pics/Availability.png);
   margin-left: 493px;
+  background-color: none;
   width: 327px;
   height: 386px;
   margin-top: -386px;
@@ -517,6 +521,7 @@
   margin-left: 838px;
   width: 327px;
   height: 386px;
+  background-color: none;
   margin-top: -386px;
   background-image: url(pics/kaball.png);
 }
