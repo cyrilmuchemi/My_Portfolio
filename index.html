@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="top-navigation">
+        <nav class="top-navigation" id="top-navigation">
 
             <ul class="navigationItems">
                 <li><a id="navigation-name" href="#">Cyril Muchemi</a></li>
@@ -24,14 +24,14 @@
         </nav>
     </header>
 
-    <section class="topSection">
+    <section class="topSection" id="topSection">
         <div class="firstPart">
             <h1>Hey There. <br>I'm Cyril Muchemi</h1>
             <h2>I am a Software Developer</h2>
             <p>
                 I can help you build a product , feature or website.
-                Look through some of my work and experience! 
-                If you like what you see and have a project you need coded, 
+                Look through some of my work and experience!
+                If you like what you see and have a project you need coded,
                 don't hestiate to contact me.
             </p>
 
@@ -48,7 +48,7 @@
         </div>
     </section>
 
-    <section class="projectIntro">
+    <section class="projectIntro" id="projectIntro">
         <div class="projectSection">
             <h2>My Recent Works</h2>
         </div>
@@ -56,9 +56,9 @@
         <div class="holder">
             <img src="pics/holder.png" alt="A place holder png">
             <h3>Multi-Post Stories</h3>
-            <p>A daily selection of privately personalized reads; 
-                no accounts or sign-ups required, 
-                has been the industry's standard dummy text ever since the 1500s, 
+            <p>A daily selection of privately personalized reads;
+                no accounts or sign-ups required,
+                has been the industry's standard dummy text ever since the 1500s,
                 when an unknown printer took a standard dummy text.</p>
               </div>
 
@@ -75,10 +75,11 @@
             <button type="button" onclick="index.html">See project</button>
         </div>
     </section>
-       
+
+       <section id="projectCards">
         <div id="cardOne">
         <h2>Profesional Art Printing Data</h2>
-        <p>A daily selection of privately personalized reads; 
+        <p>A daily selection of privately personalized reads;
           no accounts or sign-ups required. has been the industry's standard</p>
           <div id="secondTag">
               <ul>
@@ -93,7 +94,7 @@
     <div id="secondCard">
         <h2>Profesional Art Printing Data</h2>
         <h3 id="desktopHeading">Data Dashboard Healthcare</h3>
-        <p>A daily selection of privately personalized reads; 
+        <p>A daily selection of privately personalized reads;
           no accounts or sign-ups required. has been the industry's standard</p>
           <div id="thirdTag">
               <ul>
@@ -108,7 +109,7 @@
     <div id="thirdCard">
         <h2>Profesional Art Printing Data</h2>
         <h3 id="desktopHeading2">Website Protfolio</h3>
-        <p>A daily selection of privately personalized reads; 
+        <p>A daily selection of privately personalized reads;
           no accounts or sign-ups required. has been the industry's standard</p>
           <div id="fourthTag">
               <ul>
@@ -123,7 +124,7 @@
     <div id="fourthCard">
         <h2>Profesional Art Printing Data</h2>
         <h3 id="desktopHeading3">Profesional Art Printing Data More</h3>
-        <p>A daily selection of privately personalized reads; 
+        <p>A daily selection of privately personalized reads;
           no accounts or sign-ups required. has been the industry's standard</p>
           <div id="fifthTag">
               <ul>
@@ -138,7 +139,7 @@
     <div id="fifthCard">
         <h2>Profesional Art Printing Data</h2>
         <h3 id="desktopHeading4">Data Dashboard Healthcare</h3>
-        <p>A daily selection of privately personalized reads; 
+        <p>A daily selection of privately personalized reads;
           no accounts or sign-ups required. has been the industry's standard</p>
           <div id="sixthTag">
               <ul>
@@ -154,7 +155,7 @@
     <div id="sixthCard">
         <h2>Profesional Art Printing Data</h2>
         <h3 id="desktopHeading5">Website Protfolio</h3>
-        <p>A daily selection of privately personalized reads; 
+        <p>A daily selection of privately personalized reads;
           no accounts or sign-ups required. has been the industry's standard</p>
           <div id="seventhTag">
               <ul>
@@ -165,14 +166,16 @@
           </div>
           <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
           </div>
+          </section>
 
 
-    <section class="meSection">
+
+    <section class="meSection" id="meSection">
         <div class="partOne">
             <h2>About me</h2>
             <p>
-                Hello I'm a software developer! I can help, you build a product, 
-                feature or website Look through some of my work and experience! 
+                Hello I'm a software developer! I can help, you build a product,
+                feature or website Look through some of my work and experience!
                 If you like what you see and have a project you need coded, don't hestiate to contact me.
             </p>
             <button type="button" onclick="index.html">Get My Resume</button>
@@ -209,9 +212,9 @@
              </ul>
         </div>
     </section>
-    <section class="form-container">
+    <section class="form-container" id="form-container">
         <h3>
-            I'm always interested in hearing about new projects, 
+            I'm always interested in hearing about new projects,
             so if you'd like to chat please get in touch.
         </h3>
         <form action="https://formspree.io/f/mqknlogy" method="POST">
@@ -228,7 +231,7 @@
             </fieldset>
         </form>
     </section>
-    <section class="socialmedia-2">
+    <section class="socialmedia-2" id="socialmedia-2">
         <hr id="bottom-line">
         <div id="icons">
              <ul id="socialMedia">
@@ -240,8 +243,23 @@
                 </ul>
         </div>
         <div id="bottomRectangle">
-            <img src="pics/Shape.svg" alt="A rectangular svg"> 
-            </div>  
+            <img src="pics/Shape.svg" alt="A rectangular svg">
+            </div>
     </section>
+    <section class="menu" id="menu">
+        <div class="menu-container">
+            <div id="menuButton">
+                <a href="#"><img id="closingIcon" src="pics/closing.svg" alt="a closing icon"></a>
+            </div>
+            <div>
+            <ul id="menu-list">
+                <li><a id="linkA" href="#projectIntro">Portfolio</a><hr class="menu-hr"></li>
+                <li><a id="linkB" href="#meSection">About</a><hr class="menu-hr"></li>
+                <li><a id="linkC" href="#form-container">Contact</a><hr class="menu-hr"></li>
+            </ul>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
     </body>
     </html>
