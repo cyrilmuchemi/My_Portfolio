@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="mystles.css">
-    <title>Document</title>
+    <title>My Portfolio</title>
 </head>
 <body>
     <header>
@@ -181,7 +181,7 @@
         <hr class="divider">
 
         <div class="partTwo">
-            <img id="picone" src="pics/shape.png" alt="A rectangle png">
+            <img id="picone" src="pics/shape.png" alt="An angled rectangle png">
             <h2 id="language">Language</h2>
             <ul id="firstlist">
             <li>Javascript</li>
@@ -198,7 +198,7 @@
                 <li>CapyBara</li>
                 <li>Selenium</li>
             </ul>
-            <img id="picthree" src="pics/circle.png" alt="A rectangle png">
+            <img id="picthree" src="pics/circle.png" alt="A circle png">
             <h2 id="skills">Skills</h2>
             <ul id="lastlist">
                 <li>Codekit</li>
@@ -216,15 +216,12 @@
         </h3>
         <form action="https://formspree.io/f/mqknlogy" method="POST">
             <fieldset class="contact-form">
-                <label for="username">
+                <label for="username" class="reader">Full Name:</label>
                 <input type="text" name="username" id="username" placeholder="Full Name" maxlength="30" required>
-                 </label>
-                 <label for="email">
-                     <input type="email" name="email-address" id="email" placeholder="Email Address" required>
-                 </label>
-                 <label>
-                     <textarea name="comments" maxlength="500" required> Enter text here</textarea>
-                 </label>
+                <label for="email" class="reader">Email: </label>
+                <input type="email" name="email-address" id="email" placeholder="Email Address" required>
+                <label for="text-area" class="reader">Message: </label>
+                <textarea id="text-area" name="comments" maxlength="500" required> Enter text here</textarea>
                 <button id="form-button" name="submit" type="submit">
                      Get in touch
                  </button>
