@@ -908,7 +908,7 @@ input {
   padding: 40px;
 }
 
-#menu-hr {
+.menu-hr {
   margin-top: 15px;
   width: 375px;
   margin-left: -20px;
