@@ -932,5 +932,9 @@ input {
   font-weight: 700;
 }
 
+.menu {
+  display: none;
+}
+
 #About, #Contact, #Portfolio, #Email-icon { display: none; }
 }
