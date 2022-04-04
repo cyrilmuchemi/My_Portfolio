@@ -36,7 +36,7 @@ ul {
 }
 
 .Button1 button {
-  background: #C74900;
+  background: #c74900;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -219,7 +219,7 @@ ul {
   padding-top: 12px;
   text-align: center;
   font-style: normal;
-  background: #C74900;
+  background: #c74900;
   color: #fff;
   font-family: 'Inter', sans-serif;
   padding-bottom: 12px;
@@ -624,7 +624,7 @@ ul {
 }
 
 .partOne h2 {
-  color: #C74900;
+  color: #c74900;
   font-family: 'Crete Round', sans-serif;
   font-size: 72px;
   font-style: normal;
@@ -644,7 +644,7 @@ ul {
 }
 
 .partOne button {
-  background: #C74900;
+  background: #c74900;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
@@ -839,7 +839,7 @@ input {
   width: 131px;
   height: 48px;
   color: #fff;
-  background: #C74900;
+  background: #c74900;
   padding: 12px 12px 12px 12px;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
@@ -878,22 +878,22 @@ input {
 
 .Button1 button:hover {
   background-color: #fff5e1;
-  color: #C74900;
+  color: #c74900;
 }
 
 .firstButton button:hover {
   background-color: #fff5e1;
-  color: #C74900;
+  color: #c74900;
 }
 
 .partOne button:hover {
   background-color: #fff5e1;
-  color: #C74900;
+  color: #c74900;
 }
 
 .contact-form button:hover {
   background-color: #fff5e1;
-  color: #C74900;
+  color: #c74900;
 }
 
 #About, #Contact, #Portfolio, #Email-icon { display: none; }

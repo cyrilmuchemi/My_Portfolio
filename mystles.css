@@ -24,7 +24,7 @@
   }
   
   .Button1 button {
-    background: #C74900;
+    background: #c74900;
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -230,7 +230,7 @@
     padding-top: 12px;
     text-align: center;
     font-style: normal;
-    background: #C74900;
+    background: #c74900;
     color: #fff;
     font-family: 'Inter', sans-serif;
     padding-bottom: 12px;
@@ -261,7 +261,7 @@
     flex-direction: column;
     background-image: url(pics/Availability.png);
     margin-left: 493px;
-    background-color: #1F1F1F;
+    background-color: #1f1f1f;
     width: 327px;
     height: 386px;
     margin-top: -382px;
@@ -325,7 +325,7 @@
     flex-direction: column;
     margin-left: 838px;
     margin-top: -386px;
-    background-color: #1F1F1F;
+    background-color: #1f1f1f;
     width: 327px;
     height: 386px;
     background-image: url(pics/kaball.png);
@@ -387,7 +387,7 @@
 #fourthCard {
   display: flex;
   flex-direction: column;
-  background-color: #1F1F1F;
+  background-color: #1f1f1f;
   margin-left: 141.5px;
   margin-top: 24px;
   width: 327px;
@@ -453,7 +453,7 @@
   flex-direction: column;
   background-image: url(pics/Availability.png);
   margin-left: 493px;
-  background-color: #1F1F1F;
+  background-color: #1f1f1f;
   width: 327px;
   height: 386px;
   margin-top: -386px;
@@ -521,7 +521,7 @@
   margin-left: 838px;
   width: 327px;
   height: 386px;
-  background-color: #1F1F1F;
+  background-color: #1f1f1f;
   margin-top: -386px;
   background-image: url(pics/kaball.png);
 }
@@ -623,7 +623,7 @@
 }
 
 .partOne button {
-  background: #C74900;
+  background: #c74900;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
@@ -826,7 +826,7 @@ input {
   width: 122px;
   height: 48px;
   color: #fff;
-  background: #C74900;
+  background: #c74900;
   align-items: center;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
@@ -861,22 +861,22 @@ input {
   background-color: #fff5e1;
   width: 400px;
   height: 100px;
-  color: #C74900;
+  color: #c74900;
 }
 
 .firstButton button:hover {
   background-color: #fff5e1;
-  color: #C74900;
+  color: #c74900;
 }
 
 .partOne button:hover {
   background-color: #fff5e1;
-  color: #C74900;
+  color: #c74900;
 }
 
 #form-button:hover {
   background-color: #fff5e1;
-  color: #C74900;
+  color: #c74900;
   width: 100px;
   height: 100px;
 }
