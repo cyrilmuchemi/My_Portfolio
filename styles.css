@@ -896,5 +896,41 @@ input {
   color: #c74900;
 }
 
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  background: #3c3a39;
+  width: 375px;
+  height: 755px;
+}
+
+#menu-list {
+  padding: 40px;
+}
+
+#menu-hr {
+  margin-top: 15px;
+  width: 375px;
+  margin-left: -20px;
+}
+
+#closingIcon {
+  margin-top: 24px;
+  margin-left: 325px;
+}
+
+#menu-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#menu-list li {
+  color: #fff;
+  font-size: 32px;
+  font-family: 'inter', sans-serif;
+  line-height: 44px;
+  font-weight: 700;
+}
+
 #About, #Contact, #Portfolio, #Email-icon { display: none; }
 }

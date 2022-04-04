@@ -9,7 +9,7 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <header>
+    <header style="display: none;">
         <nav class="top-navigation">
 
             <ul class="navigationItems">
@@ -24,7 +24,7 @@
         </nav>
     </header>
 
-    <section class="topSection">
+    <section class="topSection" style="display: none;">
         <div class="firstPart">
             <h1>Hey There. <br>I'm Cyril Muchemi</h1>
             <h2>I am a Software Developer</h2>
@@ -48,7 +48,7 @@
         </div>
     </section>
 
-    <section class="projectIntro">
+    <section class="projectIntro" style="display: none;">
         <div class="projectSection">
             <h2>My Recent Works</h2>
         </div>
@@ -75,7 +75,8 @@
             <button type="button" onclick="index.html">See project</button>
         </div>
     </section>
-       
+
+       <section style="display: none;">
         <div id="cardOne">
         <h2>Profesional Art Printing Data</h2>
         <p>A daily selection of privately personalized reads; 
@@ -165,9 +166,11 @@
           </div>
           <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
           </div>
+          </section>
+          
 
 
-    <section class="meSection">
+    <section class="meSection" style="display: none;">
         <div class="partOne">
             <h2>About me</h2>
             <p>
@@ -209,7 +212,7 @@
              </ul>
         </div>
     </section>
-    <section class="form-container">
+    <section class="form-container" style="display: none;">
         <h3>
             I'm always interested in hearing about new projects, 
             so if you'd like to chat please get in touch.
@@ -228,7 +231,7 @@
             </fieldset>
         </form>
     </section>
-    <section class="socialmedia-2">
+    <section class="socialmedia-2" style="display: none;">
         <hr id="bottom-line">
         <div id="icons">
              <ul id="socialMedia">
@@ -242,6 +245,23 @@
         <div id="bottomRectangle">
             <img src="pics/Shape.svg" alt="A rectangular svg"> 
             </div>  
+    </section>
+    <section class="menu">
+        <div class="menu-container">
+            <div id="menuButton">
+                <a href="#"><img id="closingIcon" src="pics/closing.svg" alt="a closing icon"></a>
+            </div>
+            <div>
+            <ul id="menu-list">
+                <li><a href=".projectIntro">Portfolio</a></li>
+                <hr id="menu-hr">
+                <li><a href=".meSection">About</a></li>
+                <hr id="menu-hr">
+                <li><a href=".contact-form">Contact</a></li>
+                <hr id="menu-hr">
+            </ul>
+            </div>
+        </div>
     </section>
     </body>
     </html>
