@@ -936,5 +936,102 @@ input {
   display: none;
 }
 
+.imagePopup {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+}
+
+.popHeading h2 {
+  color: #172b4d;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin-top: 60px;
+  margin-left: 24px;
+  line-height: 44px;
+}
+
+#closingIcon2 {
+  margin-left: 325px;
+  margin-top: -60px;
+  position: absolute;
+}
+
+.popupTag {
+  display: flex;
+  position: static;
+  flex-wrap: wrap;
+}
+
+.popupTag ul {
+  display: inherit;
+  margin-left: -24px;
+}
+
+.popupTag li {
+  color: #3c3a39;
+  width: auto;
+  height: max-content;
+  border: 1px solid #8993a4;
+  padding: 10px;
+  margin: 5px;
+}
+
+.popupHolder img {
+  width: 330px;
+  height: 250px;
+  margin-left: 24px;
+  margin-top: 12px;
+}
+
+.popupParagraph {
+  width: 311px;
+  height: 220px;
+  margin-left: 24px;
+  margin-top: 10px;
+}
+
+.popupParagraph p {
+  color: #344563;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.popupButton {
+  margin-top: 40px;
+  margin-left: 12px;
+  gap: 12px;
+}
+
+#popupBtn {
+  width: 134px;
+  height: 48px;
+  color: #fff;
+  background-color: #c74900;
+  padding: 12px 12px 10px 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  margin: 12px;
+}
+
+#popupBtn2 {
+  width: 134px;
+  height: 48px;
+  color: #fff;
+  background-color: #c74900;
+  padding: 12px 12px 12px 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  margin: 12px;
+}
+
 #About, #Contact, #Portfolio, #Email-icon { display: none; }
 }

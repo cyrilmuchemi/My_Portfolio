@@ -9,8 +9,8 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <header>
-        <nav class="top-navigation" id="top-navigation">
+    <header style="display: none;">
+        <nav class="top-navigation" id="top-navigation" style="display: none;">
 
             <ul class="navigationItems">
                 <li><a id="navigation-name" href="#">Cyril Muchemi</a></li>
@@ -24,7 +24,7 @@
         </nav>
     </header>
 
-    <section class="topSection" id="topSection">
+    <section class="topSection" id="topSection" style="display: none;">
         <div class="firstPart">
             <h1>Hey There. <br>I'm Cyril Muchemi</h1>
             <h2>I am a Software Developer</h2>
@@ -48,7 +48,7 @@
         </div>
     </section>
 
-    <section class="projectIntro" id="projectIntro">
+    <section class="projectIntro" id="projectIntro" style="display: none;">
         <div class="projectSection">
             <h2>My Recent Works</h2>
         </div>
@@ -76,7 +76,7 @@
         </div>
     </section>
 
-       <section id="projectCards">
+       <section id="projectCards" style="display: none;">
         <div id="cardOne">
         <h2>Profesional Art Printing Data</h2>
         <p>A daily selection of privately personalized reads;
@@ -170,7 +170,7 @@
 
 
 
-    <section class="meSection" id="meSection">
+    <section class="meSection" id="meSection" style="display: none;">
         <div class="partOne">
             <h2>About me</h2>
             <p>
@@ -212,7 +212,7 @@
              </ul>
         </div>
     </section>
-    <section class="form-container" id="form-container">
+    <section class="form-container" id="form-container" style="display: none;">
         <h3>
             I'm always interested in hearing about new projects,
             so if you'd like to chat please get in touch.
@@ -231,7 +231,7 @@
             </fieldset>
         </form>
     </section>
-    <section class="socialmedia-2" id="socialmedia-2">
+    <section class="socialmedia-2" id="socialmedia-2" style="display: none;">
         <hr id="bottom-line">
         <div id="icons">
              <ul id="socialMedia">
@@ -246,7 +246,7 @@
             <img src="pics/Shape.svg" alt="A rectangular svg">
             </div>
     </section>
-    <section class="menu" id="menu">
+    <section class="menu" id="menu" style="display: none;">
         <div class="menu-container">
             <div id="menuButton">
                 <a href="#"><img id="closingIcon" src="pics/closing.svg" alt="a closing icon"></a>
@@ -258,6 +258,67 @@
                 <li><a id="linkC" href="#form-container">Contact</a><hr class="menu-hr"></li>
             </ul>
             </div>
+        </div>
+    </section>
+    <section class="imagePopup" style="display: none;">
+        <div class="popHeading">
+            <h2>Multi Post Stories</h2>
+            <a href="#"><img id="closingIcon2" src="pics/closing.svg" alt="a closing icon"></a>
+         </div>
+         <div class="popupTag">
+             <ul>
+                 <li>Html</li>
+                 <li>Bootstrap</li>
+                 <li>Ruby on rails</li>
+             </ul>
+         </div>
+         <div class="popupHolder">
+             <img src="pics/popup.png">
+         </div>
+         <div class="popupParagraph">
+             <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essent
+             </p>
+         </div>
+         <div class="popupButton">
+            <button id="popupBtn" type="button"> See Live<img src="pics/buttonpop.svg"></button>
+            <button id="popupBtn2" type="button"> See Source<img src="pics/GitHubtn.svg"></button>
+         </div>
+    </section>
+
+    <section class="popupDesktop">
+        <div class="popupTop">
+            <h2>Keeping track of hundreds  of components website</h2>
+            <a href="#"><img id="closingIcon3" src="pics/closing.svg" alt="a closing icon"></a>
+        </div>
+        <div class="popupTag">
+            <ul>
+                <li>html</li>
+                <li>Bootstrap</li>
+                <li>Ruby on rails</li>
+            </ul>
+        </div>
+        <div class="popupHolderDesktop">
+            <img src="pics/popup.png">
+        </div>
+        <div class="popupParagraphDesktop">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it 1960s with the 
+                releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it 1960s with 
+                the releax map lapora verita.
+            </p>
+        </div>
+        <div class="popupButtonDesktop">
+            <button id="popupBtn" type="button"> See Live<img src="pics/buttonpop.svg"></button>
+            <button id="popupBtn2" type="button"> See Source<img src="pics/GitHubtn.svg"></button>
         </div>
     </section>
     <script src="index.js"></script>

@@ -883,6 +883,107 @@ input {
 #bottomRectangle img { display: none; }
 }
 
+.popupDesktop {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.popupTop h2 {
+  color: #172b4d;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  margin-left: 24px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+#closingIcon3 {
+  position: absolute;
+  margin-left: 1106px;
+  margin-top: -58px;
+}
+
+.popupTag {
+  display: flex;
+  position: static;
+  flex-wrap: wrap;
+}
+
+.popupTag ul {
+  display: inherit;
+  margin-left: -20px;
+  margin-top: -24px;
+}
+
+.popupTag li {
+  color: #3c3a39;
+  width: auto;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  height: max-content;
+  border: 1px solid #8993a4;
+  padding: 10px;
+  margin: 5px;
+}
+
+.popupHolderDesktop {
+  margin-top: 38px;
+  margin-left: 24px;
+}
+
+.popupHolderDesktop img {
+  width: 659px;
+  height: 448px;
+}
+
+.popupParagraphDesktop {
+  width: 424px;
+  height: 336px;
+  margin-left: 708px;
+  margin-top: -470px;
+}
+
+.popupParagraphDesktop p {
+  color: #344563;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.popupButtonDesktop {
+  margin-top: 40px;
+  margin-left: 700px;
+  gap: 12px;
+}
+
+#popupBtn {
+  width: 134px;
+  height: 48px;
+  color: #fff;
+  background-color: #c74900;
+  padding: 12px 12px 10px 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  margin: 12px;
+}
+
+#popupBtn2 {
+  width: 134px;
+  height: 48px;
+  color: #fff;
+  background-color: #c74900;
+  padding: 12px 12px 12px 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  margin: 12px;
+}
+
 /* Specific things to be shown only on screen reader */
 @media reader {
   .reader {
