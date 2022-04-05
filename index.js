@@ -57,3 +57,22 @@ linkC.addEventListener('click', () => {
   document.getElementById('socialmedia-2').style.display = 'block';
   document.getElementById('menu').style.display = 'none';
 });
+
+const popup = {
+  title_mobile: 'Multi Post Stories',
+  title_desktop: 'Keeping track of hundreds of components website',
+  popup_image: 'pics/popup.png',
+  popup_text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'
+}
+
+const titleMobile = document.getElementById('titleMobile');
+titleMobile.textContent = popup.title_mobile;
+
+const titleDesktop = document.getElementById('titleDesktop');
+titleDesktop.textContent = popup.title_desktop;
+
+const imageMobile = document.getElementById('imageMobile');
+imageMobile.src = popup.popup_image;
+
+const textMobile = document.getElementById('textMobile');
+textMobile.textContent = popup.popup_text;
