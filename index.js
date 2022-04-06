@@ -1,4 +1,3 @@
-/*eslint no-trailing-spaces: [2, { 'skipBlankLines': true }]*/
 const humburger = document.getElementById('humburger');
 humburger.addEventListener('click', () => {
   document.getElementById('top-navigation').style.display = 'none';
@@ -90,16 +89,16 @@ const projectDetails = document.querySelectorAll('.seeProject');
 for (let i = 0; i < projectDetails.length; i += 1) {
   projectDetails[i].addEventListener('click', () => { 
     if (window.screen.width < 768) {
-      document.getElementById('top-navigation').style.display = 'none';
-      document.getElementById('topSection').style.display = 'none';
-      document.getElementById('projectIntro').style.display = 'none';
-      document.getElementById('projectCards').style.display = 'none';
-      document.getElementById('meSection').style.display = 'none';
-      document.getElementById('form-container').style.display = 'none';
-      document.getElementById('socialmedia-2').style.display = 'none';
-      document.getElementById('menu').style.display = 'none';
-      document.getElementById('popupDesktop').style.display = 'none';
-      document.getElementById('imagePopup').style.display = 'flex'; 
+          document.getElementById('top-navigation').style.display = 'none';
+          document.getElementById('topSection').style.display = 'none';
+          document.getElementById('projectIntro').style.display = 'none';
+          document.getElementById('projectCards').style.display = 'none';
+          document.getElementById('meSection').style.display = 'none';
+          document.getElementById('form-container').style.display = 'none';
+          document.getElementById('socialmedia-2').style.display = 'none';
+          document.getElementById('menu').style.display = 'none';
+          document.getElementById('popupDesktop').style.display = 'none';
+          document.getElementById('imagePopup').style.display = 'flex'; 
     } else {
       document.getElementById('portfolioHeader').style.display = 'none';
       document.getElementById('top-navigation').style.display = 'none';
