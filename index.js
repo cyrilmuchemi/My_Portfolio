@@ -87,9 +87,8 @@ textDesktop.textContent = popup.desktoptext;
 const projectDetails = document.querySelectorAll('.seeProject');
 
 for (let i = 0; i < projectDetails.length; i += 1) {
-  projectDetails[i].addEventListener('click', () => {
-    
-    if (screen.width < 768) {
+  projectDetails[i].addEventListener('click', () => { 
+    if (window.screen.width < 768) {
       document.getElementById('top-navigation').style.display = 'none';
       document.getElementById('topSection').style.display = 'none';
       document.getElementById('projectIntro').style.display = 'none';
@@ -101,7 +100,6 @@ for (let i = 0; i < projectDetails.length; i += 1) {
       document.getElementById('popupDesktop').style.display = 'none';
       document.getElementById('imagePopup').style.display = 'flex';
     }
-
     else {
       document.getElementById('portfolioHeader').style.display = 'none';
       document.getElementById('top-navigation').style.display = 'none';
