@@ -98,8 +98,7 @@ for (let i = 0; i < projectDetails.length; i += 1) {
       document.getElementById('socialmedia-2').style.display = 'none';
       document.getElementById('menu').style.display = 'none';
       document.getElementById('popupDesktop').style.display = 'none';
-      document.getElementById('imagePopup').style.display = 'flex';
-    }
+      document.getElementById('imagePopup').style.display = 'flex'; }
     else {
       document.getElementById('portfolioHeader').style.display = 'none';
       document.getElementById('top-navigation').style.display = 'none';
