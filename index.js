@@ -63,8 +63,8 @@ const popup = {
   titledesktop: 'Keeping track of hundreds of components website',
   popupimage: 'pics/popup.png',
   popuptext: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  desktoptext: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.'
-}
+  desktoptext: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+};
 
 const titleMobile = document.getElementById('titleMobile');
 titleMobile.textContent = popup.titlemobile;
@@ -88,6 +88,7 @@ const projectDetails = document.querySelectorAll('.seeProject');
 
 for (let i = 0; i < projectDetails.length; i += 1) {
   projectDetails[i].addEventListener('click', () => {
+    
     if (screen.width < 768) {
       document.getElementById('top-navigation').style.display = 'none';
       document.getElementById('topSection').style.display = 'none';
@@ -100,6 +101,7 @@ for (let i = 0; i < projectDetails.length; i += 1) {
       document.getElementById('popupDesktop').style.display = 'none';
       document.getElementById('imagePopup').style.display = 'flex';
     }
+
     else {
       document.getElementById('portfolioHeader').style.display = 'none';
       document.getElementById('top-navigation').style.display = 'none';

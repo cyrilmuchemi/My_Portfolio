@@ -962,7 +962,7 @@ input {
   gap: 12px;
 }
 
-#popupBtn {
+#popupdesktopbtn {
   width: 134px;
   height: 48px;
   color: #fff;
@@ -975,13 +975,13 @@ input {
   margin: 12px;
 }
 
-#popupBtn img {
+#popupdesktopbtn img {
   position: absolute;
   margin-left: 5px;
   margin-top: -2px;
 }
 
-#popupBtn2 {
+#popupdesktopbtn2 {
   width: 134px;
   height: 48px;
   color: #fff;
@@ -994,7 +994,7 @@ input {
   margin: 12px;
 }
 
-#popupBtn2 img {
+#popupdesktopbtn2 img {
   position: absolute;
   margin-top: -3px;
 }
