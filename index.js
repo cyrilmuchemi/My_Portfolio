@@ -64,7 +64,7 @@ const popup = {
   popupimage: 'pics/popup.png',
   popuptext: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
   desktoptext: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-  popuptag: ['html', 'Bootstrap', 'Ruby on Rails']
+  popuptag: ['html', 'Bootstrap', 'Ruby on Rails'],
 };
 
 const popuplist = document.getElementById('popuplist');
@@ -78,7 +78,6 @@ for (let i = 0; i < popup.popuptag.length; i += 1) {
   listMain[i].textContent = arrLangMain[i];
   popuplist.appendChild(listMain[i]);
 }
-
 
 const popupmobilelist = document.getElementById('popupmobilelist');
 
