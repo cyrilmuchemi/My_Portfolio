@@ -99,8 +99,7 @@ for (let i = 0; i < projectDetails.length; i += 1) {
       document.getElementById('menu').style.display = 'none';
       document.getElementById('popupDesktop').style.display = 'none';
       document.getElementById('imagePopup').style.display = 'flex'; 
-  }
-    else {
+    } else {
       document.getElementById('portfolioHeader').style.display = 'none';
       document.getElementById('top-navigation').style.display = 'none';
       document.getElementById('topSection').style.display = 'none';
@@ -143,3 +142,7 @@ closingIcon3.addEventListener('click', () => {
   document.getElementById('popupDesktop').style.display = 'none';
   document.getElementById('imagePopup').style.display = 'none';
 });
+
+{
+  "no-trailing-spaces"; [2, { "skipBlankLines": true }]
+}
