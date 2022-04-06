@@ -1,3 +1,4 @@
+/*eslint no-trailing-spaces: [2, { 'skipBlankLines': true }]*/
 const humburger = document.getElementById('humburger');
 humburger.addEventListener('click', () => {
   document.getElementById('top-navigation').style.display = 'none';
@@ -142,7 +143,3 @@ closingIcon3.addEventListener('click', () => {
   document.getElementById('popupDesktop').style.display = 'none';
   document.getElementById('imagePopup').style.display = 'none';
 });
-
-{
-  "no-trailing-spaces"; [2, { "skipBlankLines": true }]
-}
