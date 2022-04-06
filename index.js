@@ -84,3 +84,61 @@ imageDesktop.src = popup.popupimage;
 const textDesktop = document.getElementById('textDesktop');
 textDesktop.textContent = popup.desktoptext;
 
+const projectDetails = document.querySelectorAll('.seeProject');
+
+for (let i = 0; i < projectDetails.length; i += 1) {
+  projectDetails[i].addEventListener('click', () => {
+    if (screen.width < 768) {
+      document.getElementById('top-navigation').style.display = 'none';
+      document.getElementById('topSection').style.display = 'none';
+      document.getElementById('projectIntro').style.display = 'none';
+      document.getElementById('projectCards').style.display = 'none';
+      document.getElementById('meSection').style.display = 'none';
+      document.getElementById('form-container').style.display = 'none';
+      document.getElementById('socialmedia-2').style.display = 'none';
+      document.getElementById('menu').style.display = 'none';
+      document.getElementById('popupDesktop').style.display = 'none';
+      document.getElementById('imagePopup').style.display = 'flex';
+    }
+    else {
+      document.getElementById('top-navigation').style.display = 'none';
+      document.getElementById('topSection').style.display = 'none';
+      document.getElementById('projectIntro').style.display = 'none';
+      document.getElementById('projectCards').style.display = 'none';
+      document.getElementById('meSection').style.display = 'none';
+      document.getElementById('form-container').style.display = 'none';
+      document.getElementById('socialmedia-2').style.display = 'none';
+      document.getElementById('menu').style.display = 'none';
+      document.getElementById('popupDesktop').style.display = 'flex';
+      document.getElementById('imagePopup').style.display = 'none';
+    }
+  });
+}
+
+const closingIcon2 = document.getElementById('closingIcon2');
+closingIcon2.addEventListener('click', () => {
+  document.getElementById('top-navigation').style.display = 'block';
+  document.getElementById('topSection').style.display = 'flex';
+  document.getElementById('projectIntro').style.display = 'grid';
+  document.getElementById('projectCards').style.display = 'block';
+  document.getElementById('meSection').style.display = 'grid';
+  document.getElementById('form-container').style.display = 'flex';
+  document.getElementById('socialmedia-2').style.display = 'block';
+  document.getElementById('menu').style.display = 'none';
+  document.getElementById('popupDesktop').style.display = 'none';
+  document.getElementById('imagePopup').style.display = 'none';
+});
+
+const closingIcon3 = document.getElementById('closingIcon3');
+closingIcon3.addEventListener('click', () => {
+  document.getElementById('top-navigation').style.display = 'block';
+  document.getElementById('topSection').style.display = 'flex';
+  document.getElementById('projectIntro').style.display = 'grid';
+  document.getElementById('projectCards').style.display = 'block';
+  document.getElementById('meSection').style.display = 'grid';
+  document.getElementById('form-container').style.display = 'flex';
+  document.getElementById('socialmedia-2').style.display = 'block';
+  document.getElementById('menu').style.display = 'none';
+  document.getElementById('popupDesktop').style.display = 'none';
+  document.getElementById('imagePopup').style.display = 'none';
+});

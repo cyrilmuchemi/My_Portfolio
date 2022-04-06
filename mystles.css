@@ -22,7 +22,7 @@
     flex-wrap: wrap;
     margin-top: 22px;
   }
-  
+
   .Button1 button {
     background: #c74900;
     color: #fff;
@@ -48,7 +48,7 @@
   .top-navigation {
     display: flex;
   }
-  
+
   #navigation-name {
     color: #fff;
     text-decoration: none;
@@ -223,7 +223,7 @@
     display: flex;
     margin-top: 24px;
   }
-  
+
   .firstButton button {
     font-size: 17px;
     padding-right: 12px;
@@ -266,7 +266,7 @@
     height: 386px;
     margin-top: -382px;
   }
-  
+
   #desktopHeading {
     color: #fff;
     font-family: 'Crete Round', sans-serif;
@@ -278,7 +278,7 @@
   }
 
   #secondCard h2 { display: none; }
-  
+
   #secondCard p {
     width: 330px;
     height: 72px;
@@ -299,14 +299,14 @@
     max-width: 236px;
     max-height: 40px;
   }
-  
+
   #thirdTag ul {
     display: inherit;
     gap: 12px;
     margin-left: -24px;
     margin-top: -12px;
   }
-  
+
   #thirdTag li {
     align-self: center;
     color: #fff;
@@ -341,7 +341,7 @@
   font-family: 'Crete Round', sans-serif;
   line-height: 44px;
   }
-  
+
   #thirdCard h2 { display: none; }
 
   #thirdCard p {
@@ -364,14 +364,14 @@
     max-height: 40px;
     margin-top: 12px;
   }
-  
+
   #fourthTag ul {
     display: inherit;
     gap: 12px;
     margin-left: -24px;
     margin-top: -12px;
   }
-  
+
   #fourthTag li {
     padding: 12px;
     background: rgba(255, 255, 255, 0.24);
@@ -447,7 +447,7 @@
 #fourthCard .Button1 { display: none; }
 
 #fourthCard h2 { display: none; }
-  
+
 #fifthCard {
   display: flex;
   flex-direction: column;
@@ -883,8 +883,12 @@ input {
 #bottomRectangle img { display: none; }
 }
 
+.imagePopup {
+  display: none;
+}
+
 .popupDesktop {
-  display: flex;
+  display: none;
   flex-direction: column;
   width: 100%;
   height: auto;

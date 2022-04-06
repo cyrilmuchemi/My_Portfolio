@@ -936,8 +936,12 @@ input {
   display: none;
 }
 
+.popupDesktop {
+  display: none;
+}
+
 .imagePopup {
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: #fff;
   width: 100%;

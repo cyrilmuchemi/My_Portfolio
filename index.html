@@ -9,8 +9,8 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <header style="display: none;">
-        <nav class="top-navigation" id="top-navigation" style="display: none;">
+    <header>
+        <nav class="top-navigation" id="top-navigation">
 
             <ul class="navigationItems">
                 <li><a id="navigation-name" href="#">Cyril Muchemi</a></li>
@@ -24,7 +24,7 @@
         </nav>
     </header>
 
-    <section class="topSection" id="topSection" style="display: none;">
+    <section class="topSection" id="topSection">
         <div class="firstPart">
             <h1>Hey There. <br>I'm Cyril Muchemi</h1>
             <h2>I am a Software Developer</h2>
@@ -48,7 +48,7 @@
         </div>
     </section>
 
-    <section class="projectIntro" id="projectIntro" style="display: none;">
+    <section class="projectIntro" id="projectIntro">
         <div class="projectSection">
             <h2>My Recent Works</h2>
         </div>
@@ -72,11 +72,11 @@
         </div>
 
         <div class="firstButton">
-            <button type="button" onclick="index.html">See project</button>
+            <button class="seeProject" type="button">See project</button>
         </div>
     </section>
 
-       <section id="projectCards" style="display: none;">
+       <section id="projectCards">
         <div id="cardOne">
         <h2>Profesional Art Printing Data</h2>
         <p>A daily selection of privately personalized reads;
@@ -88,7 +88,7 @@
                   <li>Ruby</li>
               </ul>
               </div>
-              <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
+              <div class="Button1"><button class="seeProject" type="button">See Project</button></div>
           </div>
 
     <div id="secondCard">
@@ -103,7 +103,7 @@
                   <li>Ruby</li>
               </ul>
               </div>
-            <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
+            <div class="Button1"><button class="seeProject" type="button">See Project</button></div>
           </div>
 
     <div id="thirdCard">
@@ -118,7 +118,7 @@
                   <li>Ruby</li>
               </ul>
           </div>
-            <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
+            <div class="Button1"><button class="seeProject" type="button">See Project</button></div>
           </div>
 
     <div id="fourthCard">
@@ -133,7 +133,7 @@
                   <li>Ruby</li>
               </ul>
           </div>
-          <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
+          <div class="Button1"><button class="seeProject" type="button">See Project</button></div>
           </div>
 
     <div id="fifthCard">
@@ -148,7 +148,7 @@
                   <li>Ruby</li>
               </ul>
           </div>
-          <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
+          <div class="Button1"><button class="seeProject" type="button">See Project</button></div>
           </div>
 
 
@@ -164,13 +164,13 @@
                   <li>Ruby</li>
               </ul>
           </div>
-          <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
+          <div class="Button1"><button class="seeProject" type="button">See Project</button></div>
           </div>
           </section>
 
 
 
-    <section class="meSection" id="meSection" style="display: none;">
+    <section class="meSection" id="meSection">
         <div class="partOne">
             <h2>About me</h2>
             <p>
@@ -212,7 +212,7 @@
              </ul>
         </div>
     </section>
-    <section class="form-container" id="form-container" style="display: none;">
+    <section class="form-container" id="form-container">
         <h3>
             I'm always interested in hearing about new projects,
             so if you'd like to chat please get in touch.
@@ -231,7 +231,7 @@
             </fieldset>
         </form>
     </section>
-    <section class="socialmedia-2" id="socialmedia-2" style="display: none;">
+    <section class="socialmedia-2" id="socialmedia-2">
         <hr id="bottom-line">
         <div id="icons">
              <ul id="socialMedia">
@@ -246,7 +246,7 @@
             <img src="pics/Shape.svg" alt="A rectangular svg">
             </div>
     </section>
-    <section class="menu" id="menu" style="display: none;">
+    <section class="menu" id="menu">
         <div class="menu-container">
             <div id="menuButton">
                 <a href="#"><img id="closingIcon" src="pics/closing.svg" alt="a closing icon"></a>
@@ -260,7 +260,7 @@
             </div>
         </div>
     </section>
-    <section class="imagePopup" style="display: none;">
+    <section class="imagePopup" id="imagePopup">
         <div class="popHeading">
             <h2 id="titleMobile"></h2>
             <a href="#"><img id="closingIcon2" src="pics/closing.svg" alt="a closing icon"></a>
@@ -284,7 +284,7 @@
          </div>
     </section>
 
-    <section class="popupDesktop">
+    <section class="popupDesktop" id="popupDesktop">
         <div class="popupTop">
             <h2 id="titleDesktop"></h2>
             <a href="#"><img id="closingIcon3" src="pics/closing.svg" alt="a closing icon"></a>
