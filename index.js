@@ -59,20 +59,28 @@ linkC.addEventListener('click', () => {
 });
 
 const popup = {
-  title_mobile: 'Multi Post Stories',
-  title_desktop: 'Keeping track of hundreds of components website',
-  popup_image: 'pics/popup.png',
-  popup_text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent'
+  titlemobile: 'Multi Post Stories',
+  titledesktop: 'Keeping track of hundreds of components website',
+  popupimage: 'pics/popup.png',
+  popuptext: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  desktoptext: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.'
 }
 
 const titleMobile = document.getElementById('titleMobile');
-titleMobile.textContent = popup.title_mobile;
+titleMobile.textContent = popup.titlemobile;
 
 const titleDesktop = document.getElementById('titleDesktop');
-titleDesktop.textContent = popup.title_desktop;
+titleDesktop.textContent = popup.titledesktop;
 
 const imageMobile = document.getElementById('imageMobile');
-imageMobile.src = popup.popup_image;
+imageMobile.src = popup.popupimage;
 
 const textMobile = document.getElementById('textMobile');
-textMobile.textContent = popup.popup_text;
+textMobile.textContent = popup.popuptext;
+
+const imageDesktop = document.getElementById('imageDesktop');
+imageDesktop.src = popup.popupimage;
+
+const textDesktop = document.getElementById('textDesktop');
+textDesktop.textContent = popup.desktoptext;
+

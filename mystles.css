@@ -963,7 +963,7 @@ input {
   height: 48px;
   color: #fff;
   background-color: #c74900;
-  padding: 12px 12px 10px 10px;
+  padding: 10px 10px 10px 10px;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: bold;
@@ -971,17 +971,28 @@ input {
   margin: 12px;
 }
 
+#popupBtn img {
+  position: absolute;
+  margin-left: 5px;
+  margin-top: -2px;
+}
+
 #popupBtn2 {
   width: 134px;
   height: 48px;
   color: #fff;
   background-color: #c74900;
-  padding: 12px 12px 12px 12px;
+  padding: 12px 12px 12px 1px;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: bold;
   border: none;
   margin: 12px;
+}
+
+#popupBtn2 img {
+  position: absolute;
+  margin-top: -3px;
 }
 
 /* Specific things to be shown only on screen reader */
