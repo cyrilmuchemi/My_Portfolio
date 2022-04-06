@@ -1024,6 +1024,11 @@ input {
   margin: 12px;
 }
 
+#popupBtn :hover {
+  background-color: #fff5e1;
+  color: #c74900;
+}
+
 #popupBtn2 {
   width: 134px;
   height: 48px;
@@ -1035,6 +1040,11 @@ input {
   font-weight: bold;
   border: none;
   margin: 12px;
+}
+
+#popupBtn2 :hover {
+  background-color: #fff5e1;
+  color: #c74900;
 }
 
 #About, #Contact, #Portfolio, #Email-icon { display: none; }

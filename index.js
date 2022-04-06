@@ -101,6 +101,7 @@ for (let i = 0; i < projectDetails.length; i += 1) {
       document.getElementById('imagePopup').style.display = 'flex';
     }
     else {
+      document.getElementById('portfolioHeader').style.display = 'none';
       document.getElementById('top-navigation').style.display = 'none';
       document.getElementById('topSection').style.display = 'none';
       document.getElementById('projectIntro').style.display = 'none';
