@@ -9,6 +9,7 @@
     <title>My Portfolio</title>
 </head>
 <body>
+    <div id="blur">
     <header id="portfolioHeader">
         <nav class="top-navigation" id="top-navigation">
 
@@ -45,13 +46,14 @@
                 </ul>
 
             </div>
-        </div>
+        </div>    
     </section>
+</div>
 
     <section class="projectIntro" id="projectIntro">
         <div class="projectSection">
             <h2>My Recent Works</h2>
-        </div>
+    </div>
         <hr class="topLine">
         <div class="holder">
             <img src="pics/holder.png" alt="A place holder png">
@@ -76,9 +78,10 @@
         </div>
     </section>
 
+
        <section id="projectCards">
         <div id="cardOne">
-        <h2>Profesional Art Printing Data</h2>
+        <h2 id="cardOneh2">Profesional Art Printing Data</h2>
         <p>A daily selection of privately personalized reads;
           no accounts or sign-ups required. has been the industry's standard</p>
           <div id="secondTag">
@@ -261,16 +264,13 @@
         </div>
     </section>
     <section class="imagePopup" id="imagePopup">
+        <div class="mobilepopcont">
         <div class="popHeading">
             <h2 id="titleMobile"></h2>
             <a href="#"><img id="closingIcon2" src="pics/closing.svg" alt="a closing icon"></a>
          </div>
          <div class="popupTag">
-             <ul>
-                 <li>Html</li>
-                 <li>Bootstrap</li>
-                 <li>Ruby on rails</li>
-             </ul>
+             <ul id="popupmobilelist"></ul>
          </div>
          <div class="popupHolder">
             <img id="imageMobile" src="pics/popup.png" alt="a popup image">
@@ -282,19 +282,17 @@
             <button id="popupBtn" type="button"> See Live<img src="pics/buttonpop.svg" alt="popup svg"></button>
             <button id="popupBtn2" type="button"> See Source<img src="pics/GitHubtn.svg" alt="github button svg"></button>
          </div>
+         </div>
     </section>
 
     <section class="popupDesktop" id="popupDesktop">
+       <div class="desktoppopupcont">
         <div class="popupTop">
             <h2 id="titleDesktop"></h2>
             <a href="#"><img id="closingIcon3" src="pics/closing.svg" alt="a closing icon"></a>
         </div>
         <div class="popupTag">
-            <ul>
-                <li>html</li>
-                <li>Bootstrap</li>
-                <li>Ruby on rails</li>
-            </ul>
+            <ul id="popuplist"></ul>
         </div>
         <div class="popupHolderDesktop">
             <img id="imageDesktop" src="pics/popup.png" alt="a popup image">
@@ -305,6 +303,7 @@
         <div class="popupButtonDesktop">
             <button id="popupdesktopbtn" type="button"> See Live<img src="pics/buttonpop.svg" alt="a popup svg"></button>
             <button id="popupdesktopbtn2" type="button"> See Source<img src="pics/GitHubtn.svg" alt="a github svg"></button>
+        </div>
         </div>
     </section>
     <script src="index.js"></script>

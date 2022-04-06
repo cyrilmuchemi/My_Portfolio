@@ -943,9 +943,15 @@ input {
 .imagePopup {
   display: none;
   flex-direction: column;
-  background-color: #fff;
-  width: 100%;
-  height: auto;
+  width: 343px;
+  height: 100vh;
+}
+
+.mobilepopcont {
+  background: #fff;
+  padding-bottom: 60px;
+  position: absolute;
+  margin-top: -700px;
 }
 
 .popHeading h2 {

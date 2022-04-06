@@ -887,11 +887,19 @@ input {
   display: none;
 }
 
+.desktoppopupcont {
+  background: #fff;
+  padding-bottom: 60px;
+  position: absolute;
+  margin-top: -900px;
+}
+
 .popupDesktop {
   display: none;
   flex-direction: column;
-  width: 100%;
-  height: auto;
+  width: 1156px;
+  height: 100vh;
+  padding: 50px;
 }
 
 .popupTop h2 {
@@ -905,7 +913,7 @@ input {
 
 #closingIcon3 {
   position: absolute;
-  margin-left: 1106px;
+  margin-left: 1080px;
   margin-top: -58px;
 }
 

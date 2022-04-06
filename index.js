@@ -64,7 +64,33 @@ const popup = {
   popupimage: 'pics/popup.png',
   popuptext: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
   desktoptext: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+  popuptag: ['html', 'Bootstrap', 'Ruby on Rails']
 };
+
+const popuplist = document.getElementById('popuplist');
+
+const listMain = [];
+const arrLangMain = [];
+
+for (let i = 0; i < popup.popuptag.length; i += 1) {
+  listMain[i] = document.createElement('li');
+  arrLangMain[i] = popup.popuptag[i];
+  listMain[i].textContent = arrLangMain[i];
+  popuplist.appendChild(listMain[i]);
+}
+
+
+const popupmobilelist = document.getElementById('popupmobilelist');
+
+const mobileList = [];
+const mobileArr = [];
+
+for (let i = 0; i < popup.popuptag.length; i += 1) {
+  mobileList[i] = document.createElement('li');
+  mobileArr[i] = popup.popuptag[i];
+  mobileList[i].textContent = mobileArr[i];
+  popupmobilelist.appendChild(mobileList[i]);
+}
 
 const titleMobile = document.getElementById('titleMobile');
 titleMobile.textContent = popup.titlemobile;
@@ -89,8 +115,9 @@ const projectDetails = document.querySelectorAll('.seeProject');
 for (let i = 0; i < projectDetails.length; i += 1) {
   projectDetails[i].addEventListener('click', () => {
     if (window.screen.width < 768) {
-      document.getElementById('top-navigation').style.display = 'none';
-      document.getElementById('topSection').style.display = 'none';
+      document.getElementById('blur').style.filter = 'blur(3px)';
+      document.getElementById('top-navigation').style.display = 'block';
+      document.getElementById('topSection').style.display = 'flex';
       document.getElementById('projectIntro').style.display = 'none';
       document.getElementById('projectCards').style.display = 'none';
       document.getElementById('meSection').style.display = 'none';
@@ -100,9 +127,10 @@ for (let i = 0; i < projectDetails.length; i += 1) {
       document.getElementById('popupDesktop').style.display = 'none';
       document.getElementById('imagePopup').style.display = 'flex';
     } else {
-      document.getElementById('portfolioHeader').style.display = 'none';
-      document.getElementById('top-navigation').style.display = 'none';
-      document.getElementById('topSection').style.display = 'none';
+      document.getElementById('blur').style.filter = 'blur(3px)';
+      document.getElementById('portfolioHeader').style.display = 'block';
+      document.getElementById('top-navigation').style.display = 'flex';
+      document.getElementById('topSection').style.display = 'flex';
       document.getElementById('projectIntro').style.display = 'none';
       document.getElementById('projectCards').style.display = 'none';
       document.getElementById('meSection').style.display = 'none';
@@ -117,6 +145,7 @@ for (let i = 0; i < projectDetails.length; i += 1) {
 
 const closingIcon2 = document.getElementById('closingIcon2');
 closingIcon2.addEventListener('click', () => {
+  document.getElementById('blur').style.filter = 'blur(0px)';
   document.getElementById('top-navigation').style.display = 'block';
   document.getElementById('topSection').style.display = 'flex';
   document.getElementById('projectIntro').style.display = 'grid';
@@ -131,6 +160,7 @@ closingIcon2.addEventListener('click', () => {
 
 const closingIcon3 = document.getElementById('closingIcon3');
 closingIcon3.addEventListener('click', () => {
+  document.getElementById('blur').style.filter = 'blur(0px)';
   document.getElementById('top-navigation').style.display = 'block';
   document.getElementById('topSection').style.display = 'flex';
   document.getElementById('projectIntro').style.display = 'grid';
