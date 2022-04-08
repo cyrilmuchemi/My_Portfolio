@@ -362,7 +362,7 @@
     flex-direction: row;
     max-width: 236px;
     max-height: 40px;
-    margin-top: 12px;
+    margin-top: 55px;
   }
 
   #fourthTag ul {
@@ -555,7 +555,7 @@
 #seventhTag {
   display: flex;
   flex-direction: row;
-  margin-top: 12px;
+  margin-top: 55px;
   justify-content: center;
   max-width: 236px;
   max-height: 40px;
@@ -883,6 +883,10 @@ input {
 #bottomRectangle img { display: none; }
 }
 
+.menu {
+  display: none;
+}
+
 .imagePopup {
   display: none;
 }
@@ -891,7 +895,6 @@ input {
   background: #fff;
   padding-bottom: 60px;
   position: absolute;
-  margin-top: -900px;
 }
 
 .popupDesktop {
