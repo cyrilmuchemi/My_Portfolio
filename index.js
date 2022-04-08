@@ -113,7 +113,7 @@ const projectDetails = document.querySelectorAll('.seeProject');
 
 for (let i = 0; i < projectDetails.length; i += 1) {
   projectDetails[i].addEventListener('click', () => {
-    //console.log('mobile');
+    
     if (window.screen.width < 768) {
       document.getElementById('blur').style.filter = 'blur(3px)';
       document.getElementById('top-navigation').style.display = 'block';
@@ -127,7 +127,6 @@ for (let i = 0; i < projectDetails.length; i += 1) {
       document.getElementById('popupDesktop').style.display = 'none';
       document.getElementById('imagePopup').style.display = 'flex';
     } else {
-      //console.log('desktop');
       document.getElementById('blur').style.filter = 'blur(3px)';
       document.getElementById('portfolioHeader').style.display = 'block';
       document.getElementById('top-navigation').style.display = 'flex';
