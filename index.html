@@ -9,7 +9,8 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <header>
+    <div id="blur">
+    <header id="portfolioHeader">
         <nav class="top-navigation" id="top-navigation">
 
             <ul class="navigationItems">
@@ -47,125 +48,19 @@
             </div>
         </div>
     </section>
+</div>
 
     <section class="projectIntro" id="projectIntro">
         <div class="projectSection">
             <h2>My Recent Works</h2>
-        </div>
+    </div>
         <hr class="topLine">
         <div class="holder">
-            <img src="pics/holder.png" alt="A place holder png">
-            <h3>Multi-Post Stories</h3>
-            <p>A daily selection of privately personalized reads;
-                no accounts or sign-ups required,
-                has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a standard dummy text.</p>
               </div>
-
-        <div class="projectTag">
-          <ul>
-              <li>css</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li>Ruby</li>
-          </ul>
-        </div>
-
-        <div class="firstButton">
-            <button type="button" onclick="index.html">See project</button>
-        </div>
-    </section>
+              </section>
 
        <section id="projectCards">
-        <div id="cardOne">
-        <h2>Profesional Art Printing Data</h2>
-        <p>A daily selection of privately personalized reads;
-          no accounts or sign-ups required. has been the industry's standard</p>
-          <div id="secondTag">
-              <ul>
-                  <li>html</li>
-                  <li>bootstrap</li>
-                  <li>Ruby</li>
-              </ul>
-              </div>
-              <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
-          </div>
 
-    <div id="secondCard">
-        <h2>Profesional Art Printing Data</h2>
-        <h3 id="desktopHeading">Data Dashboard Healthcare</h3>
-        <p>A daily selection of privately personalized reads;
-          no accounts or sign-ups required. has been the industry's standard</p>
-          <div id="thirdTag">
-              <ul>
-                  <li>html</li>
-                  <li>bootstrap</li>
-                  <li>Ruby</li>
-              </ul>
-              </div>
-            <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
-          </div>
-
-    <div id="thirdCard">
-        <h2>Profesional Art Printing Data</h2>
-        <h3 id="desktopHeading2">Website Protfolio</h3>
-        <p>A daily selection of privately personalized reads;
-          no accounts or sign-ups required. has been the industry's standard</p>
-          <div id="fourthTag">
-              <ul>
-                  <li>html</li>
-                  <li>bootstrap</li>
-                  <li>Ruby</li>
-              </ul>
-          </div>
-            <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
-          </div>
-
-    <div id="fourthCard">
-        <h2>Profesional Art Printing Data</h2>
-        <h3 id="desktopHeading3">Profesional Art Printing Data More</h3>
-        <p>A daily selection of privately personalized reads;
-          no accounts or sign-ups required. has been the industry's standard</p>
-          <div id="fifthTag">
-              <ul>
-                  <li>html</li>
-                  <li>bootstrap</li>
-                  <li>Ruby</li>
-              </ul>
-          </div>
-          <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
-          </div>
-
-    <div id="fifthCard">
-        <h2>Profesional Art Printing Data</h2>
-        <h3 id="desktopHeading4">Data Dashboard Healthcare</h3>
-        <p>A daily selection of privately personalized reads;
-          no accounts or sign-ups required. has been the industry's standard</p>
-          <div id="sixthTag">
-              <ul>
-                  <li>html</li>
-                  <li>bootstrap</li>
-                  <li>Ruby</li>
-              </ul>
-          </div>
-          <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
-          </div>
-
-
-    <div id="sixthCard">
-        <h2>Profesional Art Printing Data</h2>
-        <h3 id="desktopHeading5">Website Protfolio</h3>
-        <p>A daily selection of privately personalized reads;
-          no accounts or sign-ups required. has been the industry's standard</p>
-          <div id="seventhTag">
-              <ul>
-                  <li>html</li>
-                  <li>bootstrap</li>
-                  <li>Ruby</li>
-              </ul>
-          </div>
-          <div class="Button1"><button type="button" onclick="index.html">See Project</button></div>
-          </div>
           </section>
 
 
@@ -260,6 +155,51 @@
             </div>
         </div>
     </section>
+    <section class="imagePopup" id="imagePopup">
+        <div class="mobilepopcont">
+        <div class="popHeading">
+            <h2 id="titleMobile"></h2>
+            <a href="#"><img id="closingIcon2" src="pics/closing.svg" alt="a closing icon"></a>
+         </div>
+         <div class="popupTag">
+             <ul id="popupmobilelist"></ul>
+         </div>
+         <div class="popupHolder">
+            <img id="imageMobile" src="pics/popup.png" alt="a popup image">
+         </div>
+         <div class="popupParagraph">
+             <p id="textMobile"></p>
+         </div>
+         <div class="popupButton">
+            <button id="popupBtn" type="button"> See Live<img src="pics/buttonpop.svg" alt="popup svg"></button>
+            <button id="popupBtn2" type="button"> See Source<img src="pics/GitHubtn.svg" alt="github button svg"></button>
+         </div>
+         </div>
+    </section>
+
+    <section class="popupDesktop" id="popupDesktop">
+       <div class="desktoppopupcont">
+        <div class="popupTop">
+            <h2 id="titleDesktop"></h2>
+            <a href="#"><img id="closingIcon3" src="pics/closing.svg" alt="a closing icon"></a>
+        </div>
+        <div class="popupTag">
+            <ul id="popuplist"></ul>
+        </div>
+        <div class="popupHolderDesktop">
+            <img id="imageDesktop" src="pics/popup.png" alt="a popup image">
+        </div>
+        <div class="popupParagraphDesktop">
+            <p id="textDesktop"> </p>
+        </div>
+        <div class="popupButtonDesktop">
+            <button id="popupdesktopbtn" type="button"> See Live<img src="pics/buttonpop.svg" alt="a popup svg"></button>
+            <button id="popupdesktopbtn2" type="button"> See Source<img src="pics/GitHubtn.svg" alt="a github svg"></button>
+        </div>
+        </div>
+    </section>
+    <script src="dynamic.js"></script>
     <script src="index.js"></script>
+
     </body>
     </html>
