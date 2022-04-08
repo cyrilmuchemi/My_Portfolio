@@ -113,7 +113,6 @@ const projectDetails = document.querySelectorAll('.seeProject');
 
 for (let i = 0; i < projectDetails.length; i += 1) {
   projectDetails[i].addEventListener('click', () => {
-    
     if (window.screen.width < 768) {
       document.getElementById('blur').style.filter = 'blur(3px)';
       document.getElementById('top-navigation').style.display = 'block';
