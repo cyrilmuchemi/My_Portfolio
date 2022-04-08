@@ -1013,6 +1013,7 @@ input {
 #errorDisplay {
   text-align: center;
   color: rgb(151, 16, 16);
+  font-weight: bold;
 }
 
 /* Specific things to be shown only on screen reader */
