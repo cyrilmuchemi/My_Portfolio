@@ -56,7 +56,7 @@ linkC.addEventListener('click', () => {
   document.getElementById('form-container').style.display = 'flex';
   document.getElementById('socialmedia-2').style.display = 'block';
   document.getElementById('menu').style.display = 'none';
-};
+});
 
 const popup = {
   titlemobile: 'Multi Post Stories',
@@ -67,7 +67,7 @@ const popup = {
   popuptag: ['html', 'Bootstrap', 'Ruby on Rails'],
 };
 
-const popuplist = documentgetElementById('popuplist');
+const popuplist = document.getElementById('popuplist');
 
 const listMain = [];
 const arrLangMain = [];

@@ -1010,6 +1010,11 @@ input {
   margin-top: -3px;
 }
 
+#errorDisplay {
+  text-align: center;
+  color: rgb(151, 16, 16);
+}
+
 /* Specific things to be shown only on screen reader */
 @media reader {
   .reader {
