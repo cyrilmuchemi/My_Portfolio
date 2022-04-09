@@ -1055,8 +1055,12 @@ input {
 
 #errorDisplay {
   text-align: center;
+<<<<<<< HEAD
   color: rgb(151, 16, 16);
   font-weight: bold;
+=======
+  color: rgb(131, 8, 8);
+>>>>>>> d1650dbf3303fcf17961b9d36cbe35fc1420625f
 }
 
 #About, #Contact, #Portfolio, #Email-icon { display: none; }
