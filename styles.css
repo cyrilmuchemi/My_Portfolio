@@ -1053,5 +1053,11 @@ input {
   margin-top: -3px;
 }
 
+#errorDisplay {
+  text-align: center;
+  color: rgb(151, 16, 16);
+  font-weight: bold;
+}
+
 #About, #Contact, #Portfolio, #Email-icon { display: none; }
 }
